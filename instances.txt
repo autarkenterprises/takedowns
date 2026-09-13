@@ -1,0 +1,104 @@
+Firearms creators punished for ordinary gun content (2024-2026)
+Ranked by recency x audience size.
+Criterion: punishment for ordinary lawful firearms content (reviews, sport
+photos, brand pages, range demos)--not manufacturing tutorials, threats, or
+illegal sales.
+
+1. Demolition Ranch (Matt Carriker)
+   Audience: ~11.8M YouTube subs
+   When: Jul 2024
+   Platform: YouTube
+   What: Automatic-weapon videos age-gated 18+ and barred from ads; Carriker
+   reported ~60% view loss for that core format of mainstream gun
+   entertainment.
+   Source: https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+
+2. Hickok45 (Greg/John Kinman)
+   Audience: ~7.8M YouTube subs
+   When: Jul 2024
+   Platform: YouTube
+   What: Post-June 18 videos removed; ~95% of a 2,700+ video library at risk
+   because lawful gun/accessory sponsor links (spoken or written) became
+   strike/termination territory.
+   Sources: https://www.thetruthaboutguns.com/youtube-sets-sights-on-hickok45-videos/
+            https://thereload.com/youtube-says-links-to-gun-ammo-dealers-will-trigger-channel-bans/
+
+3. Smith & Wesson
+   Audience: ~1.6M Facebook followers
+   When: Nov 2024
+   Platform: Facebook/Meta
+   What: 15-year page suspended indefinitely over routine product/promo posts;
+   Meta later called it an "error" and restored it after public backlash.
+   Source: https://www.foxnews.com/politics/facebook-silent-after-banning-reinstating-popular-gun-manufacturer
+
+4. Guns.com
+   Audience: ~395K YouTube subs; 120M+ views
+   When: Sep 2024
+   Platform: YouTube
+   What: Multiple strikes and ~1 month of suspensions for content they said
+   matched written policy; quit posting after 13 years and moved to Rumble/X.
+   Sources: https://www.guns.com/news/2024/09/16/why-we-quit-youtube
+            https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+
+5. The Gun Collective (Jon Patton)
+   Audience: ~369K YouTube subs
+   When: Aug 2024
+   Platform: YouTube
+   What: Dealer-link enforcement (including spoken URLs/ammo sites not clearly
+   listed in writing) treated as channel-killing risk for standard
+   review/sponsorship content.
+   Source: https://thereload.com/youtube-says-links-to-gun-ammo-dealers-will-trigger-channel-bans/
+
+6. GunGuyTV (Joel Persinger)
+   Audience: ~223K YouTube subs
+   When: Fall 2024
+   Platform: YouTube
+   What: Abandoned ~70-80% of prior output (reviews/sponsored firearm content)
+   on YouTube; shifted that work to Rumble.
+   Source: https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+
+7. Old Row Outdoors
+   Audience: ~105K YouTube subs
+   When: Fall 2024
+   Platform: YouTube
+   What: Partner Program removal after a policy review of hunting/outdoors
+   firearm content; quit for Rumble.
+   Sources: https://reclaimthenet.org/gun-channels-embrace-rumble-after-youtube-censorship
+            https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+
+8. Big Horn Armory
+   Audience: Manufacturer channel (full library wiped)
+   When: May 2026
+   Platform: YouTube
+   What: Permanent channel termination after three retroactive strikes on
+   years-old range demos (e.g. shooting frozen chickens)--no build tutorials
+   or sales pitches.
+   Sources: https://bearingarms.com/john-petrolino/2026/05/20/prominent-rifle-manufacturer-deplatformed-from-youtube-n1232587
+            https://www.thefirearmblog.com/blog/big-horn-armory-youtube-channel-is-removed-44828503
+
+9. USA Shooting athletes (McKenna Geer; also Conner Prince, Vincent Hancock)
+   Audience: Olympic/Paralympic reach; congressional attention
+   When: Jul-Aug 2024
+   Platform: Instagram/Meta
+   What: Accounts restricted / non-recommended for competition photos with
+   rifles/shotguns--air-rifle sport content treated as "regulated goods."
+   Sources: https://justthenews.com/nation/culture/instagram-censors-accounts-paralympian-other-athletes-usa-shooting-teams-firearm
+            http://gonzalez.house.gov/media/press-releases/congressman-gonzalez-seeks-answers-meta-over-recent-shadow-bans-team-usas
+
+10. Army West Point Rifle Team
+    Audience: Official U.S. Military Academy athletics page
+    When: 2024
+    Platform: Facebook/Meta
+    What: Page "unpublished" because "Army West Point Rifle goes against our
+    Community Standards."
+    Sources: https://bearingarms.com/camedwards/2024/07/25/muzzled-by-meta-competitive-shooters-silenced-on-facebook-instagram-n1225731
+             https://www.nssf.org/articles/big-tech-anti-2a-censorship-strikes-again/
+
+Notes on criterion fit:
+- Cleanest "punished for guns themselves" fits: #3 (Meta admitted error), #8
+  (retroactive strikes on demos), #9-#10 (Olympic/military sport pages).
+- Largest audience hits: #1-#2.
+- Strongest recent full exits: #4, #8.
+
+Compiled 2026-09-12 from public reporting; audience figures are approximate as
+of the cited coverage dates.
