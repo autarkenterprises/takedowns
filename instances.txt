@@ -10,9 +10,10 @@ illegal sales.
    When: Jul 2024
    Platform: YouTube
    What: Automatic-weapon videos age-gated 18+ and barred from ads; Carriker
-   reported ~60% view loss for that core format of mainstream gun
-   entertainment.
-   Source: https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+   reported age-gated videos get ~40% of prior views (~60% loss). Channel
+   monthly views also fell ~18M (2022) -> ~8M (later year).
+   Sources: https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+            https://smokinggun.org/popular-guntube-channel-demolition-ranch-to-shut-down/
 
 2. Hickok45 (Greg/John Kinman)
    Audience: ~7.8M YouTube subs
@@ -28,8 +29,9 @@ illegal sales.
    Audience: ~1.6M Facebook followers
    When: Nov 2024
    Platform: Facebook/Meta
-   What: 15-year page suspended indefinitely over routine product/promo posts;
-   Meta later called it an "error" and restored it after public backlash.
+   What: 15-year page suspended indefinitely over routine product/promo posts
+   (~5 days: Nov 22-27); Meta later called it an "error" and restored it after
+   public backlash.
    Source: https://www.foxnews.com/politics/facebook-silent-after-banning-reinstating-popular-gun-manufacturer
 
 4. Guns.com
@@ -191,7 +193,8 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     When: ~2021
     Platform: YouTube
     What: Demonetized as "harmful content" for showing someone holding/handling
-    a firearm in gun reviews.
+    a firearm in gun reviews; YouTube ads had covered ~40-50% of channel
+    expenses and dropped to zero.
     Source: https://reclaimthenet.org/justin-opinion-youtube-demonetized
 
 21. C&Rsenal
