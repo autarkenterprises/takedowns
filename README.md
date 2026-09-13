@@ -19,10 +19,40 @@ Ten documented instances ranked by **recency × audience size**. Criterion: puni
 | 9 | **USA Shooting athletes** (McKenna Geer; also Conner Prince, Vincent Hancock) | Olympic/Paralympic reach; congressional attention | Jul–Aug 2024 | Instagram/Meta | Accounts restricted / non-recommended for competition photos with rifles/shotguns—air-rifle sport content treated as “regulated goods.” [Just the News](https://justthenews.com/nation/culture/instagram-censors-accounts-paralympian-other-athletes-usa-shooting-teams-firearm) · [Rep. Gonzalez](http://gonzalez.house.gov/media/press-releases/congressman-gonzalez-seeks-answers-meta-over-recent-shadow-bans-team-usas) |
 | 10 | **Army West Point Rifle Team** | Official U.S. Military Academy athletics page | 2024 | Facebook/Meta | Page “unpublished” because “Army West Point Rifle goes against our Community Standards.” [WSJ via Bearing Arms](https://bearingarms.com/camedwards/2024/07/25/muzzled-by-meta-competitive-shooters-silenced-on-facebook-instagram-n1225731) · [NSSF](https://www.nssf.org/articles/big-tech-anti-2a-censorship-strikes-again/) |
 
-### Notes on criterion fit
+### Notes on criterion fit (batch 1)
 
 - **Cleanest “punished for guns themselves” fits:** #3 (Meta admitted error), #8 (retroactive strikes on demos), #9–#10 (Olympic/military sport pages).
 - **Largest audience hits:** #1–#2.
 - **Strongest recent full exits:** #4, #8.
 
 Compiled 2026-09-12 from public reporting; audience figures are approximate as of the cited coverage dates.
+
+## Additional instances (batch 2)
+
+Fifteen further cases under the same criterion, ranked by **recency × audience size** within this batch. Numbers continue from batch 1.
+
+| # | Who | Audience | When | Platform | What happened |
+|---|-----|----------|------|----------|---------------|
+| 11 | **Garand Thumb** | ~2.76M YouTube subs | Jan–Feb 2023 | YouTube | Suppressor and related firearms videos removed in a platform-wide enforcement wave that YouTube later called a mistake and reversed. [MRC](https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm) · [The Reload](https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/) |
+| 12 | **Forgotten Weapons** (Ian McCollum) | ~2.5M YouTube subs | Jan 2023 | YouTube | Historical “Hush Puppy” suppressor video (years online, 1M+ views) removed for alleged firearms-policy violation; later restored after press inquiry. YouTube admitted the suppressor crackdown was erroneous. [The Reload](https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/) |
+| 13 | **SilencerCo** (manufacturer channel) | Major suppressor brand channel | Jan–Feb 2023 | YouTube | Official channel deleted outright for lawful suppressor content; YouTube later restored deleted manufacturer/media channels as mistaken enforcement. [The Reload](https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/) |
+| 14 | **Top Shot Dustin** | ~775K YouTube subs | Jan–Feb 2023 | YouTube | Suppressor demo video removed, then restored after YouTube conceded the wave was a mistake. [MRC](https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm) |
+| 15 | **Mrgunsngear** | Large firearms review channel | Jan–Feb 2023 | YouTube | Content removals plus temporary channel suspension during the suppressor enforcement wave; later reinstated. [MRC](https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm) |
+| 16 | **Ammoland** and **Recoil Magazine** (official channels) | Industry media brands | Jan–Feb 2023 | YouTube | Entire official channels deleted in the same suppressor wave; later restored after YouTube called the takedowns mistakes. [The Reload](https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/) |
+| 17 | **SIG Sauer** | Major firearms manufacturer | Feb 2023 | Instagram/Meta | Official Instagram account suspended (while sibling SIG Academy remained up)—first reported full takedown of a major gunmaker’s IG presence of that kind. [Soldier Systems Daily](https://soldiersystems.net/2023/02/20/instagram-suspends-sig-sauer-account/) |
+| 18 | **Honest Outlaw** | ~217K+ YouTube subs (at time) | Jul 2019 | YouTube | Fully removed from the Partner Program for ordinary gun-review content; support gave no usable explanation of which rule was broken. [AmmoLand](https://www.ammoland.com/2019/07/youtube-removes-gun-channels-from-their-partner-program/) |
+| 19 | **Booligan Shooting Sports** | ~300K YouTube subs | 2023 (ongoing pattern) | YouTube | Host reported repeated removals of rule-compliant firearms videos with unhelpful appeals—illustrative of opaque enforcement beyond the suppressor wave. [The Reload](https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/) |
+| 20 | **Justin Opinion** | ~84K YouTube subs; 23M+ views (at time) | ~2021 | YouTube | Demonetized as “harmful content” for showing someone holding/handling a firearm in gun reviews. [Reclaim The Net](https://reclaimthenet.org/justin-opinion-youtube-demonetized) |
+| 21 | **C&Rsenal** | Growing historical-arms channel (later ~hundreds of thousands) | Jan 2020 | YouTube | Partner Program eligibility pulled for “harmful content” despite documentary coverage of historical military small arms. [Reclaim The Net](https://reclaimthenet.org/youtube-demonetizes-crsenal-historical-military-weapons-channel) · [Forbes](https://www.forbes.com/sites/petersuciu/2020/12/01/youtubes-firearms-history-channel-crsenal-has-faced-de-monetization-but-keeps-growing-its-audience/) |
+| 22 | **Cape Gun Works** (Toby Leary) | ~26K YouTube subs; 10 years of videos | Sep 2025 | YouTube | Permanent channel termination after retroactive review of years of 2A/firearms educational content; struck days before a prior strike would have expired. [John F. Gately](https://www.johnfgately.com/p/breaking-toby-learys-cape-gun-works) |
+| 23 | **Weatherby** | Established rifle manufacturer | ~2025–2026 | YouTube | Unexplained strikes on product and podcast videos despite care to avoid sales pitches; no human recourse reported. [Cowboy State Daily](https://cowboystatedaily.com/2026/05/21/wyoming-firearms-companies-say-youtube-unfairly-targets-gun-related-content/) |
+| 24 | **Gunblast** (Boge Quinn) | Long-running firearms review outlet | Pre-2026 (reported May 2026) | YouTube | Channel run off the platform without clear guidance; earlier demonetization while ads still ran on the content. [Cowboy State Daily](https://cowboystatedaily.com/2026/05/21/wyoming-firearms-companies-say-youtube-unfairly-targets-gun-related-content/) |
+| 25 | **Firearms Guide** | ~22.8K YouTube subs | Fall 2024 | YouTube | Two community-guideline strikes (one from permanent ban); left YouTube for X/Rumble citing unkeepable rule churn. [NBC](https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694) |
+
+### Also notable (batch 2 footnotes)
+
+- **GUNS Magazine (Instagram):** account notified it can “no longer be shown to non-followers” under Recommendations Guidelines without a Community Standards violation—reach kill for industry media. [Shooting Industry](https://shootingindustry.com/industry-news/in-the-shadows/)
+- **Black Swan Media (John Crump):** 2019 Partner Program removal labeled “harmful content” for 2A interviews/livestreams with no gun sales or reviews. [AmmoLand](https://www.ammoland.com/2019/07/youtube-removes-gun-channels-from-their-partner-program/)
+- **PDX Arsenal (safety instructor):** Meta reach collapse on Facebook/Instagram for lawful training posts. [Fox](https://www.foxnews.com/media/gun-safety-instructor-says-facebook-instagram-are-unfairly-shadow-banning-not-alone)
+
+Batch 2 compiled 2026-09-13. Audience figures approximate as of cited coverage.

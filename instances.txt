@@ -1,5 +1,6 @@
-Firearms creators punished for ordinary gun content (2024-2026)
-Ranked by recency x audience size.
+Firearms creators punished for ordinary gun content
+Batch 1 (#1-10): 2024-2026, ranked by recency x audience size.
+Batch 2 (#11-25): additional cases, same criterion, ranked within batch.
 Criterion: punishment for ordinary lawful firearms content (reviews, sport
 photos, brand pages, range demos)--not manufacturing tutorials, threats, or
 illegal sales.
@@ -102,3 +103,147 @@ Notes on criterion fit:
 
 Compiled 2026-09-12 from public reporting; audience figures are approximate as
 of the cited coverage dates.
+
+------------------------------------------------------------------------------
+Additional instances (batch 2)
+Fifteen further cases, same criterion; ranked by recency x audience within batch.
+Numbers continue from batch 1. Compiled 2026-09-13.
+
+11. Garand Thumb
+    Audience: ~2.76M YouTube subs
+    When: Jan-Feb 2023
+    Platform: YouTube
+    What: Suppressor and related firearms videos removed in a platform-wide
+    enforcement wave that YouTube later called a mistake and reversed.
+    Sources: https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm
+             https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+
+12. Forgotten Weapons (Ian McCollum)
+    Audience: ~2.5M YouTube subs
+    When: Jan 2023
+    Platform: YouTube
+    What: Historical "Hush Puppy" suppressor video (years online, 1M+ views)
+    removed for alleged firearms-policy violation; later restored after press
+    inquiry. YouTube admitted the suppressor crackdown was erroneous.
+    Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+
+13. SilencerCo (manufacturer channel)
+    Audience: Major suppressor brand channel
+    When: Jan-Feb 2023
+    Platform: YouTube
+    What: Official channel deleted outright for lawful suppressor content;
+    YouTube later restored deleted manufacturer/media channels as mistaken
+    enforcement.
+    Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+
+14. Top Shot Dustin
+    Audience: ~775K YouTube subs
+    When: Jan-Feb 2023
+    Platform: YouTube
+    What: Suppressor demo video removed, then restored after YouTube conceded
+    the wave was a mistake.
+    Source: https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm
+
+15. Mrgunsngear
+    Audience: Large firearms review channel
+    When: Jan-Feb 2023
+    Platform: YouTube
+    What: Content removals plus temporary channel suspension during the
+    suppressor enforcement wave; later reinstated.
+    Source: https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm
+
+16. Ammoland and Recoil Magazine (official channels)
+    Audience: Industry media brands
+    When: Jan-Feb 2023
+    Platform: YouTube
+    What: Entire official channels deleted in the same suppressor wave; later
+    restored after YouTube called the takedowns mistakes.
+    Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+
+17. SIG Sauer
+    Audience: Major firearms manufacturer
+    When: Feb 2023
+    Platform: Instagram/Meta
+    What: Official Instagram account suspended (while sibling SIG Academy
+    remained up)--first reported full takedown of a major gunmaker's IG
+    presence of that kind.
+    Source: https://soldiersystems.net/2023/02/20/instagram-suspends-sig-sauer-account/
+
+18. Honest Outlaw
+    Audience: ~217K+ YouTube subs (at time)
+    When: Jul 2019
+    Platform: YouTube
+    What: Fully removed from the Partner Program for ordinary gun-review
+    content; support gave no usable explanation of which rule was broken.
+    Source: https://www.ammoland.com/2019/07/youtube-removes-gun-channels-from-their-partner-program/
+
+19. Booligan Shooting Sports
+    Audience: ~300K YouTube subs
+    When: 2023 (ongoing pattern)
+    Platform: YouTube
+    What: Host reported repeated removals of rule-compliant firearms videos
+    with unhelpful appeals--illustrative of opaque enforcement beyond the
+    suppressor wave.
+    Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+
+20. Justin Opinion
+    Audience: ~84K YouTube subs; 23M+ views (at time)
+    When: ~2021
+    Platform: YouTube
+    What: Demonetized as "harmful content" for showing someone holding/handling
+    a firearm in gun reviews.
+    Source: https://reclaimthenet.org/justin-opinion-youtube-demonetized
+
+21. C&Rsenal
+    Audience: Growing historical-arms channel (later hundreds of thousands)
+    When: Jan 2020
+    Platform: YouTube
+    What: Partner Program eligibility pulled for "harmful content" despite
+    documentary coverage of historical military small arms.
+    Sources: https://reclaimthenet.org/youtube-demonetizes-crsenal-historical-military-weapons-channel
+             https://www.forbes.com/sites/petersuciu/2020/12/01/youtubes-firearms-history-channel-crsenal-has-faced-de-monetization-but-keeps-growing-its-audience/
+
+22. Cape Gun Works (Toby Leary)
+    Audience: ~26K YouTube subs; 10 years of videos
+    When: Sep 2025
+    Platform: YouTube
+    What: Permanent channel termination after retroactive review of years of
+    2A/firearms educational content; struck days before a prior strike would
+    have expired.
+    Source: https://www.johnfgately.com/p/breaking-toby-learys-cape-gun-works
+
+23. Weatherby
+    Audience: Established rifle manufacturer
+    When: ~2025-2026
+    Platform: YouTube
+    What: Unexplained strikes on product and podcast videos despite care to
+    avoid sales pitches; no human recourse reported.
+    Source: https://cowboystatedaily.com/2026/05/21/wyoming-firearms-companies-say-youtube-unfairly-targets-gun-related-content/
+
+24. Gunblast (Boge Quinn)
+    Audience: Long-running firearms review outlet
+    When: Pre-2026 (reported May 2026)
+    Platform: YouTube
+    What: Channel run off the platform without clear guidance; earlier
+    demonetization while ads still ran on the content.
+    Source: https://cowboystatedaily.com/2026/05/21/wyoming-firearms-companies-say-youtube-unfairly-targets-gun-related-content/
+
+25. Firearms Guide
+    Audience: ~22.8K YouTube subs
+    When: Fall 2024
+    Platform: YouTube
+    What: Two community-guideline strikes (one from permanent ban); left
+    YouTube for X/Rumble citing unkeepable rule churn.
+    Source: https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+
+Also notable (batch 2 footnotes):
+- GUNS Magazine (Instagram): notified it can "no longer be shown to
+  non-followers" under Recommendations Guidelines without a Community Standards
+  violation.
+  Source: https://shootingindustry.com/industry-news/in-the-shadows/
+- Black Swan Media (John Crump): 2019 Partner Program removal labeled "harmful
+  content" for 2A interviews/livestreams with no gun sales or reviews.
+  Source: https://www.ammoland.com/2019/07/youtube-removes-gun-channels-from-their-partner-program/
+- PDX Arsenal (safety instructor): Meta reach collapse on Facebook/Instagram
+  for lawful training posts.
+  Source: https://www.foxnews.com/media/gun-safety-instructor-says-facebook-instagram-are-unfairly-shadow-banning-not-alone
