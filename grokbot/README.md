@@ -17,17 +17,17 @@ Prior catalog content is preserved as an **exact prefix**. Design:
 - **Cite + archive:** http(s) sources required; Wayback mirrors attached before write.
 - **Dedup:** known entities/sources from `instances.txt` are not re-added.
 
-## Production (Cursor Cloud)
+## Production (Cursor Cloud via CLI)
 
-See [docs/cursor-cloud-daily-scan.md](../docs/cursor-cloud-daily-scan.md).
-
-The Automation writes `grokbot/data/inbox.json`, then:
+Cursor Automations cannot be created from the API (route 404). Launch a Cloud
+Agent with a User API Key:
 
 ```bash
-./grokbot/scripts/run_scan.sh grokbot/data/inbox.json
+export CURSOR_API_KEY='…'   # from https://cursor.com/dashboard/api
+./grokbot/scripts/launch_cloud_agent.sh
 ```
 
-No `XAI_API_KEY`. No Grok API.
+Daily trigger: GitHub Actions `.github/workflows/daily-cloud-scan.yml` (`0 12 * * *` UTC) calling the same launcher. Details: [docs/cursor-cloud-daily-scan.md](../docs/cursor-cloud-daily-scan.md).
 
 ## Local ingest
 

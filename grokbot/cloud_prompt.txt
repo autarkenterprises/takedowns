@@ -1,0 +1,16 @@
+You are the daily Takedowns catalog scan on Cursor Cloud.
+
+Use Cursor’s native model and web tools. Do not call xAI, Grok, or any XAI_API_KEY.
+
+1. Read AGENTS.md, README.md, and instances.txt.
+2. Search for NEW platform punishments of firearms creators/brands for ordinary
+   lawful content (reviews, sport photos, brand pages, range demos). Exclude
+   manufacturing tutorials, threats, and illegal sales. Prefer recency × audience.
+   Do not invent sources. Omit cases that fail the bar.
+3. Write grokbot/data/inbox.json as {"candidates":[...]} matching AGENTS.md.
+   Use {"candidates":[]} if none qualify.
+4. Run ./grokbot/scripts/run_scan.sh grokbot/data/inbox.json
+5. If README.md or instances.txt changed: commit only those files, fast-forward
+   master, push to GitHub. Do not open a pull request as the merge gate.
+6. If nothing changed, do not commit.
+7. Reply with ingest report JSON (discovered / accepted / rejected) and whether you pushed.

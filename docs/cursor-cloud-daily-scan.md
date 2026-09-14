@@ -1,46 +1,42 @@
 # Cursor Cloud daily scan
 
-Discovery uses **Cursor’s native Cloud Agent Automation model**, not Grok/xAI.
-The Python tree only **ingests** the agent’s JSON (validate + Wayback +
-append-only catalog write). Cloud VMs are ephemeral; there is no 24/7 server.
+Discovery uses **Cursor’s native Cloud Agent** (account default model), not Grok.
+Python only **ingests** the agent’s JSON.
 
-## Secrets
+## Why not cursor.com/automations from CLI
 
-None required for discovery. Do **not** add `XAI_API_KEY`.
+`GET`/`POST https://api.cursor.com/v1/automations` returns **404**. There is no
+public API or `agent` CLI command that creates an Automation. A Cursor CLI
+login token is also **not** a User API Key (`Invalid User API Key`).
 
-## Create or update the Automation
+The supported CLI setup is:
 
-1. Open [cursor.com/automations](https://cursor.com/automations).
-2. Trigger: **Scheduled** cron `0 12 * * *` (12:00 UTC daily).
-3. Repository: **this repo** (`autarkenterprises/takedowns`), branch **`master`**.
-   Cron defaults to *no repository* — attach the repo or the agent cannot edit files.
-4. Model: leave the Automation default (Cursor-native). Do not configure Grok/xAI.
-5. Environment: repo `.cursor/environment.json` (do not skip install).
-6. Tools: git push to GitHub. Disable “always open a pull request” if offered.
-7. Prompt: paste the block below. Save, activate, run once by hand.
+1. `POST /v1/agents` (Cloud Agents API) — agent runs on Cursor VMs
+2. GitHub Actions cron `0 12 * * *` — only the trigger; not the worker
 
-## Automation prompt
+## One-time CLI setup
 
-```
-You are the daily Takedowns catalog scan on Cursor Cloud.
+1. Create a **User API Key** at [cursor.com/dashboard/api](https://cursor.com/dashboard/api).
+2. Export it (do not commit it):
 
-Use Cursor’s native model and web tools. Do not call xAI, Grok, or any XAI_API_KEY.
-
-1. Read AGENTS.md, README.md, and instances.txt.
-2. Search for NEW platform punishments of firearms creators/brands for ordinary
-   lawful content (reviews, sport photos, brand pages, range demos). Exclude
-   manufacturing tutorials, threats, and illegal sales. Prefer recency × audience.
-   Do not invent sources. Omit cases that fail the bar.
-3. Write grokbot/data/inbox.json as {"candidates":[...]} matching AGENTS.md.
-   Use {"candidates":[]} if none qualify.
-4. Run ./grokbot/scripts/run_scan.sh grokbot/data/inbox.json
-5. If README.md or instances.txt changed: commit only those files, fast-forward
-   master, push to GitHub. Do not open a pull request as the merge gate.
-6. If nothing changed, do not commit.
-7. Reply with ingest report JSON (discovered / accepted / rejected) and whether you pushed.
+```bash
+export CURSOR_API_KEY='…'
 ```
 
-## Optional local ingest UI
+3. Launch one Cloud Agent now:
 
-Debug-only: upload the same JSON to the FastAPI ingest form. Production cadence
-is the Cloud Automation, not a laptop process.
+```bash
+./grokbot/scripts/launch_cloud_agent.sh
+```
+
+4. Store the same key as a GitHub Actions secret so the daily cron can fire:
+
+```bash
+gh secret set CURSOR_API_KEY -R autarkenterprises/takedowns
+```
+
+The workflow is [`.github/workflows/daily-cloud-scan.yml`](../.github/workflows/daily-cloud-scan.yml). Manual run: Actions → daily-cloud-scan → Run workflow.
+
+## Agent prompt
+
+[`grokbot/cloud_prompt.txt`](../grokbot/cloud_prompt.txt) is what every launch sends.

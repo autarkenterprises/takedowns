@@ -1,0 +1,28 @@
+# Daily Cursor Cloud Agent scan
+#
+# Cursor Automations (cursor.com/automations) cannot be created via API.
+# This workflow is the CLI-schedulable equivalent: GitHub cron fires
+# POST /v1/agents; the agent runs on Cursor's VMs against this repo.
+#
+# Required repo secret: CURSOR_API_KEY (User API Key from cursor.com/dashboard/api)
+
+name: daily-cloud-scan
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Launch Cursor Cloud Agent
+        env:
+          CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
+          PYTHONPATH: grokbot/src
+        run: python -m takedowns_grokbot.cloud_launch
