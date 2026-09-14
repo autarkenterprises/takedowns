@@ -71,7 +71,8 @@ def _do_scan() -> None:
 async def lifespan(app: FastAPI):
     global _scheduler
     _scheduler = BackgroundScheduler()
-    if os.environ.get("GROKBOT_ENABLE_SCHEDULER", "1") not in ("0", "false", "False"):
+    # Default off: daily cadence lives on Cursor Cloud Automations, not this process.
+    if os.environ.get("GROKBOT_ENABLE_SCHEDULER", "0") not in ("0", "false", "False"):
         _scheduler.add_job(
             _do_scan,
             "interval",

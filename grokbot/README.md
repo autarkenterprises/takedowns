@@ -27,31 +27,29 @@ cp .env.example .env
 # Edit .env and set XAI_API_KEY=...
 ```
 
-## Launch from Cursor
+## Launch on Cursor Cloud (production schedule)
 
-1. Open the `takedowns` folder (or the parent `gcs` workspace).
-2. Open the integrated terminal (**Terminal → New Terminal**).
-3. Run:
+Daily scans run as a **Cursor Cloud Agent Automation** (cron), not on a laptop.
+See [docs/cursor-cloud-daily-scan.md](../docs/cursor-cloud-daily-scan.md).
+
+1. Store `XAI_API_KEY` in [Cloud Agent secrets](https://cursor.com/dashboard/cloud-agents).
+2. Create the Automation at [cursor.com/automations](https://cursor.com/automations): repo `autarkenterprises/takedowns`, branch `master`, cron `0 12 * * *` (UTC), prompt from that doc.
+3. Each run executes `./grokbot/scripts/run_scan.sh` and pushes append-only catalog updates.
+
+## Optional local UI (debug only)
 
 ```bash
-cd /home/jpt4/business/gcs/takedowns/grokbot
+cd grokbot
 source .venv/bin/activate
 export PYTHONPATH=src
-# Optional while developing: export GROKBOT_ENABLE_SCHEDULER=0
+# Scheduler stays off unless you explicitly export GROKBOT_ENABLE_SCHEDULER=1
 uvicorn takedowns_grokbot.web:app --host 127.0.0.1 --port 8765
 ```
 
-4. In Cursor’s Simple Browser or your OS browser, open **http://127.0.0.1:8765/**
-5. Click **Run scan now** (or wait for the daily scheduler).
-6. Review git diff on `README.md` / `instances.txt` — new GrokBot sections only; older batches untouched.
-
-One-off scan without the UI:
+One-off scan without the UI (still needs `XAI_API_KEY`):
 
 ```bash
-cd /home/jpt4/business/gcs/takedowns/grokbot
-source .venv/bin/activate
-export PYTHONPATH=src
-python -m takedowns_grokbot.cli
+./grokbot/scripts/run_scan.sh
 ```
 
 ## Tests
@@ -71,7 +69,7 @@ Default tests use a mock Grok client and a fake archiver (no network / no API ke
 | `XAI_API_KEY` | Required for live scans |
 | `GROKBOT_MODEL` | Default `grok-4-1-fast-reasoning` |
 | `GROKBOT_INTERVAL_HOURS` | Scheduler period (default `24`) |
-| `GROKBOT_ENABLE_SCHEDULER` | Set `0` to disable background scans |
+| `GROKBOT_ENABLE_SCHEDULER` | Local UI only; default `0` (Cloud cron is the schedule) |
 | `GROKBOT_ADMIN_TOKEN` | Optional shared secret for **Run scan now** |
 | `GROKBOT_CATALOG` | Path to `instances.txt` |
 | `GROKBOT_README` | Path to `README.md` |

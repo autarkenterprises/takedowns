@@ -2,7 +2,7 @@
 
 ## Status
 
-Accepted (amended 2026-09-14: catalog write path)
+Accepted (amended 2026-09-14: catalog write path; Cursor Cloud cron)
 
 ## Context
 
@@ -19,7 +19,7 @@ Manual scanning does not keep pace with ongoing enforcement. We want a **Grok-po
 
 Build **GrokBot** as a small Python web service under `takedowns/grokbot/` that:
 
-1. **Schedules** recurring discovery scans (default: daily) via an in-process scheduler, with a manual “Run scan now” control in the UI.
+1. **Discovers** candidates via a CLI scan (`grokbot/scripts/run_scan.sh`); optional FastAPI UI can trigger the same path for debug.
 2. **Uses the xAI Grok API** with server-side **web_search** (and optionally **x_search**) to find candidate events.
 3. **Applies a deterministic validator** (code, not model judgment alone) that rejects candidates missing required fields, lacking http(s) citations, matching known catalog entities, or failing explicit exclusion heuristics.
 4. **Archives source URLs** via Wayback (reuse or save) before publication.
@@ -29,7 +29,7 @@ Build **GrokBot** as a small Python web service under `takedowns/grokbot/` that:
    - **preserves all prior file bytes as an unchanged prefix** (no rewrite of historical rows);
    - refuses to write if that prefix check would fail.
 6. **Records** queue/run artifacts under `grokbot/data/` for audit; the catalog files are the publication surface.
-7. **Runs locally by default** behind optional `GROKBOT_ADMIN_TOKEN`. Secrets stay in environment / `.env` (never committed).
+7. **Schedules on Cursor Cloud**, not a laptop: a daily Cloud Agent Automation (cron) clones this GitHub repo, runs `grokbot/scripts/run_scan.sh`, and pushes append-only catalog commits. Optional local FastAPI is debug-only; in-process APScheduler is off by default. Secrets (`XAI_API_KEY`) live in Cursor Cloud Agent secrets, never in git.
 
 ## Options considered
 
@@ -38,14 +38,15 @@ Build **GrokBot** as a small Python web service under `takedowns/grokbot/` that:
 | Draft-only queue with no catalog writes | Rejected after product requirement: the agent must update the table and list. |
 | Full-file regenerate / re-rank all rows | Risks regressing prior wording, archives, and ordering. |
 | Pure RSS/keyword scrapers without an LLM | High false positives; weak narrative fit vs reporting patterns. |
-| Hosted SaaS dashboard first | Premature; ship local FastAPI instance, revisit after AAR. |
+| Laptop `uvicorn` + APScheduler as the cron | The machine is off; production schedule is Cursor Cloud Automations. |
+| Hosted 24/7 FastAPI on Cursor VMs | Cloud agent VMs are ephemeral; cron launches a scan then exits. |
 
 ## Success criteria
 
 - Unit tests prove append-only writes: previous README/instances content remains an exact prefix after inserts.
 - Validator + archive gates run before any catalog mutation.
 - Mock-client scan can append a new numbered entry to both files without altering earlier entries.
-- Live mode with `XAI_API_KEY` can be launched from Cursor (venv + uvicorn) and scheduled or triggered manually.
+- With `XAI_API_KEY` in Cursor Cloud secrets, a Cloud Automation can run the CLI daily and append catalog rows or complete with zero publishes.
 - Rejected candidates record machine-readable reasons and do not touch the catalog.
 
 ## Failure criteria
@@ -58,7 +59,8 @@ Build **GrokBot** as a small Python web service under `takedowns/grokbot/` that:
 
 - Catalog files become live outputs of the agent; git history is the undo path.
 - Credibility still depends on validator + citation/archive gates; human review of git diffs remains recommended.
-- Requires an xAI API key for live mode; CI uses mocks and does not call the network.
+- Requires an xAI API key in Cursor Cloud secrets for live mode; CI uses mocks and does not call the network.
+- Daily cadence is a Cursor Automation (cron UTC); in-process APScheduler stays off unless explicitly enabled for local debug.
 
 ## Outcome
 
