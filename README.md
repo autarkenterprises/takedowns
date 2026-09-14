@@ -2,6 +2,8 @@
 
 Documentation of platform bans, deplatformings, and demonetizations affecting lawful firearms-related content creators and brands.
 
+Automated follow-on discovery: [grokbot/](./grokbot/) (append-only updates to this README and `instances.txt`; see [docs/adr/0001-grokbot-recurring-scanner.md](./docs/adr/0001-grokbot-recurring-scanner.md)).
+
 ## Firearms creators punished for ordinary gun content (2024–2026)
 
 Ten documented instances ranked by **recency × audience size**. Criterion: punishment for ordinary lawful firearms content (reviews, sport photos, brand pages, range demos)—not manufacturing tutorials, threats, or illegal sales.

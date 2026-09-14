@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ item.draft.who }} · GrokBot</title>
+  <style>
+    :root {
+      --bg: #1a1d21; --panel: #24282e; --text: #e8eaed; --muted: #9aa0a6;
+      --accent: #c4a35a; --border: #3a3f47;
+    }
+    body {
+      margin: 0; font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.45;
+    }
+    main { max-width: 860px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    a { color: var(--accent); }
+    .panel {
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 6px; padding: 1rem 1.1rem; margin: 1rem 0;
+    }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+<main>
+  <p><a href="/">← Dashboard</a></p>
+  <h1>{{ item.draft.who }}</h1>
+  <p class="muted">Status: <strong>{{ item.status }}</strong> · id {{ item.id }}</p>
+
+  <section class="panel">
+    <p><strong>Audience:</strong> {{ item.draft.audience }}</p>
+    <p><strong>When:</strong> {{ item.draft.when }}</p>
+    <p><strong>Platform:</strong> {{ item.draft.platform }}</p>
+    <p><strong>What happened:</strong> {{ item.draft.what_happened }}</p>
+    <p><strong>Content:</strong> {{ item.draft.content_description }}</p>
+    <p><strong>Fit rationale:</strong> {{ item.draft.fit_rationale }}</p>
+    <p><strong>Confidence:</strong> {{ item.draft.confidence }}</p>
+    <p><strong>Sources:</strong></p>
+    <ul>
+      {% for src in item.draft.sources %}
+      <li><a href="{{ src }}" rel="noopener" target="_blank">{{ src }}</a>
+        {% if item.draft.archive_urls and item.draft.archive_urls[src] %}
+        · <a href="{{ item.draft.archive_urls[src] }}" rel="noopener" target="_blank">archive</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% if item.validation_errors %}
+    <p class="muted">Validation errors: {{ item.validation_errors }}</p>
+    {% endif %}
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+data/candidates/*.json
+data/runs/*.json
+!data/candidates/.gitkeep
+!data/runs/.gitkeep

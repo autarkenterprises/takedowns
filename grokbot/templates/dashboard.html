@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Takedowns GrokBot</title>
+  <style>
+    :root {
+      --bg: #1a1d21;
+      --panel: #24282e;
+      --text: #e8eaed;
+      --muted: #9aa0a6;
+      --accent: #c4a35a;
+      --danger: #c45c5c;
+      --ok: #6a9e6a;
+      --border: #3a3f47;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+      background: radial-gradient(ellipse at top, #2a3038 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.45;
+    }
+    main { max-width: 960px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+    h1 { font-family: "IBM Plex Serif", Georgia, serif; font-weight: 600; margin: 0 0 0.25rem; }
+    .sub { color: var(--muted); margin-bottom: 1.5rem; }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .row { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+    button {
+      background: var(--accent);
+      color: #1a1d21;
+      border: 0;
+      border-radius: 4px;
+      padding: 0.45rem 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .meta { font-size: 0.9rem; color: var(--muted); }
+    .warn { color: var(--danger); }
+    .ok { color: var(--ok); }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 0.45rem 0.35rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    a { color: var(--accent); }
+    input[type=password] {
+      background: #121417;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.4rem 0.55rem;
+      border-radius: 4px;
+    }
+    code { font-size: 0.85em; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Takedowns GrokBot</h1>
+  <p class="sub">Recurring discovery of firearms-creator suppression. Validated findings append to both <code>README.md</code> and <code>instances.txt</code> without rewriting prior entries.</p>
+
+  <section class="panel">
+    <div class="row">
+      <form method="post" action="/scan" class="row">
+        {% if token_required %}
+        <input type="password" name="token" placeholder="admin token" required />
+        {% endif %}
+        <button type="submit">Run scan now</button>
+      </form>
+      <span class="meta">Schedule: every {{ interval_hours }}h</span>
+    </div>
+    <p class="meta" style="margin-top:0.75rem">
+      Catalog: <code>{{ catalog_path }}</code><br />
+      README: <code>{{ readme_path }}</code>
+    </p>
+    <p class="meta">
+      API key: {% if has_api_key %}<span class="ok">present</span>{% else %}<span class="warn">missing (set XAI_API_KEY)</span>{% endif %}
+      {% if last_report %} · Last run: <span class="ok">{{ last_report }}</span>{% endif %}
+      {% if last_error %} · Error: <span class="warn">{{ last_error }}</span>{% endif %}
+    </p>
+  </section>
+
+  <section class="panel">
+    <h2>Published this session store ({{ published|length }} shown)</h2>
+    {% if not published %}
+    <p class="meta">No published candidates logged yet.</p>
+    {% else %}
+    <table>
+      <thead><tr><th>Who</th><th>Platform</th><th>When</th><th></th></tr></thead>
+      <tbody>
+      {% for item in published %}
+        <tr>
+          <td>{{ item.draft.who }}</td>
+          <td>{{ item.draft.platform }}</td>
+          <td>{{ item.draft.when }}</td>
+          <td><a href="/candidate/{{ item.id }}">Details</a></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+  </section>
+
+  <section class="panel">
+    <h2>Auto-rejected ({{ rejected|length }} shown)</h2>
+    {% if not rejected %}
+    <p class="meta">None.</p>
+    {% else %}
+    <table>
+      <thead><tr><th>Who</th><th>Errors</th><th></th></tr></thead>
+      <tbody>
+      {% for item in rejected %}
+        <tr>
+          <td>{{ item.draft.who }}</td>
+          <td class="meta">{{ item.validation_errors }}</td>
+          <td><a href="/candidate/{{ item.id }}">Details</a></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+  </section>
+
+  <section class="panel">
+    <h2>Recent runs</h2>
+    {% if not runs %}
+    <p class="meta">No run logs yet.</p>
+    {% else %}
+    <ul class="meta">
+      {% for name in runs %}<li>{{ name }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+</main>
+</body>
+</html>
