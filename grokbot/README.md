@@ -1,13 +1,14 @@
-# GrokBot
+# Catalog ingest (`grokbot/`)
 
-Web agent that **regularly scans** for firearms content-creator suppression /
-censorship and **appends validated findings** to the parent catalog:
+Python gates for the Takedowns catalog. **Discovery** is a Cursor Cloud Agent
+Automation using Cursor’s native model. This package only **ingests** that
+agent’s JSON: validate, Wayback-archive, append-only write to:
 
-- `../README.md` — markdown table rows (new dated GrokBot section)
-- `../instances.txt` — plaintext list entries
+- `../README.md` — markdown table rows
+- `../instances.txt` — plaintext list
 
-Prior catalog content is preserved as an **exact prefix** (append-only; no
-rewrite of historical rows). Design: [docs/adr/0001-grokbot-recurring-scanner.md](../docs/adr/0001-grokbot-recurring-scanner.md).
+Prior catalog content is preserved as an **exact prefix**. Design:
+[docs/adr/0001-grokbot-recurring-scanner.md](../docs/adr/0001-grokbot-recurring-scanner.md).
 
 ## Standards
 
@@ -16,60 +17,47 @@ rewrite of historical rows). Design: [docs/adr/0001-grokbot-recurring-scanner.md
 - **Cite + archive:** http(s) sources required; Wayback mirrors attached before write.
 - **Dedup:** known entities/sources from `instances.txt` are not re-added.
 
-## Setup
+## Production (Cursor Cloud)
 
-```bash
-cd takedowns/grokbot
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-# Edit .env and set XAI_API_KEY=...
-```
-
-## Launch on Cursor Cloud (production schedule)
-
-Daily scans run as a **Cursor Cloud Agent Automation** (cron), not on a laptop.
 See [docs/cursor-cloud-daily-scan.md](../docs/cursor-cloud-daily-scan.md).
 
-1. Store `XAI_API_KEY` in [Cloud Agent secrets](https://cursor.com/dashboard/cloud-agents).
-2. Create the Automation at [cursor.com/automations](https://cursor.com/automations): repo `autarkenterprises/takedowns`, branch `master`, cron `0 12 * * *` (UTC), prompt from that doc.
-3. Each run executes `./grokbot/scripts/run_scan.sh` and pushes append-only catalog updates.
+The Automation writes `grokbot/data/inbox.json`, then:
 
-## Optional local UI (debug only)
+```bash
+./grokbot/scripts/run_scan.sh grokbot/data/inbox.json
+```
+
+No `XAI_API_KEY`. No Grok API.
+
+## Local ingest
 
 ```bash
 cd grokbot
+python3 -m venv .venv
 source .venv/bin/activate
-export PYTHONPATH=src
-# Scheduler stays off unless you explicitly export GROKBOT_ENABLE_SCHEDULER=1
-uvicorn takedowns_grokbot.web:app --host 127.0.0.1 --port 8765
+pip install -r requirements.txt
+PYTHONPATH=src python -m takedowns_grokbot.cli --from-json path/to/inbox.json
 ```
 
-One-off scan without the UI (still needs `XAI_API_KEY`):
+Optional debug UI (JSON upload only):
 
 ```bash
-./grokbot/scripts/run_scan.sh
+export PYTHONPATH=src
+uvicorn takedowns_grokbot.web:app --host 127.0.0.1 --port 8765
 ```
 
 ## Tests
 
 ```bash
-cd takedowns/grokbot
+cd grokbot
 source .venv/bin/activate
 pytest -q
 ```
-
-Default tests use a mock Grok client and a fake archiver (no network / no API key).
 
 ## Environment
 
 | Variable | Purpose |
 |----------|---------|
-| `XAI_API_KEY` | Required for live scans |
-| `GROKBOT_MODEL` | Default `grok-4-1-fast-reasoning` |
-| `GROKBOT_INTERVAL_HOURS` | Scheduler period (default `24`) |
-| `GROKBOT_ENABLE_SCHEDULER` | Local UI only; default `0` (Cloud cron is the schedule) |
-| `GROKBOT_ADMIN_TOKEN` | Optional shared secret for **Run scan now** |
 | `GROKBOT_CATALOG` | Path to `instances.txt` |
 | `GROKBOT_README` | Path to `README.md` |
+| `GROKBOT_ADMIN_TOKEN` | Optional shared secret for the debug ingest form |

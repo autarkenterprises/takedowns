@@ -1,8 +1,8 @@
-# ADR 0001: GrokBot recurring scanner for firearms-creator suppression
+# ADR 0001: Recurring scanner for firearms-creator suppression
 
 ## Status
 
-Accepted (amended 2026-09-14: catalog write path; Cursor Cloud cron)
+Accepted (amended 2026-09-14: catalog write path; Cursor Cloud cron; native Cursor model for discovery)
 
 ## Context
 
@@ -13,54 +13,46 @@ The `takedowns/` catalog documents platform bans, deplatformings, and demonetiza
 - **Evidence:** every instance needs citable public sources; source URLs are paired with Wayback Machine mirrors.
 - **Ranking signal:** prefer **recency × audience size**; omit cases that fail the significance/citability bar rather than padding the list.
 
-Manual scanning does not keep pace with ongoing enforcement. We want a **Grok-powered web instance** that regularly searches for new candidate instances, and **writes validated findings into both `README.md` (tables) and `instances.txt` (list)** without regressing prior catalog work.
+We want recurring discovery that writes validated findings into both `README.md` (tables) and `instances.txt` (list) without regressing prior catalog work. Discovery must run on **Cursor Cloud Agent Automations**, using **whatever model Cursor provides for that Automation**, not a third-party Grok/xAI API call.
 
 ## Decision
 
-Build **GrokBot** as a small Python web service under `takedowns/grokbot/` that:
+Split the pipeline:
 
-1. **Discovers** candidates via a CLI scan (`grokbot/scripts/run_scan.sh`); optional FastAPI UI can trigger the same path for debug.
-2. **Uses the xAI Grok API** with server-side **web_search** (and optionally **x_search**) to find candidate events.
-3. **Applies a deterministic validator** (code, not model judgment alone) that rejects candidates missing required fields, lacking http(s) citations, matching known catalog entities, or failing explicit exclusion heuristics.
-4. **Archives source URLs** via Wayback (reuse or save) before publication.
-5. **Appends accepted findings** to both `README.md` and `instances.txt` using an **append-only writer** that:
-   - continues numbering from the highest existing entry;
-   - adds a dated GrokBot batch section/table in the README;
-   - **preserves all prior file bytes as an unchanged prefix** (no rewrite of historical rows);
-   - refuses to write if that prefix check would fail.
-6. **Records** queue/run artifacts under `grokbot/data/` for audit; the catalog files are the publication surface.
-7. **Schedules on Cursor Cloud**, not a laptop: a daily Cloud Agent Automation (cron) clones this GitHub repo, runs `grokbot/scripts/run_scan.sh`, and pushes append-only catalog commits. Optional local FastAPI is debug-only; in-process APScheduler is off by default. Secrets (`XAI_API_KEY`) live in Cursor Cloud Agent secrets, never in git.
+1. **Discovery (Cursor native):** A daily Cloud Agent Automation uses Cursor’s Automation model and built-in tools (web search / browsing) to propose new catalog rows. It writes `{"candidates": [...]}` JSON. It does **not** call the xAI Grok API.
+2. **Publication (deterministic Python):** `grokbot/scripts/run_scan.sh <inbox.json>` validates, Wayback-archives, and **append-only** writes `README.md` + `instances.txt` (prior bytes remain an exact prefix). Rejected drafts are queued for audit only.
+3. **Schedule:** cron Automation on Cursor Cloud (`0 12 * * *` UTC unless changed), repo `autarkenterprises/takedowns`, branch `master`. No laptop process, no in-process APScheduler, no `XAI_API_KEY`.
+4. Optional local FastAPI is debug ingest of the same JSON, not a discovery engine.
 
 ## Options considered
 
 | Option | Why rejected / deferred |
 |--------|-------------------------|
-| Draft-only queue with no catalog writes | Rejected after product requirement: the agent must update the table and list. |
+| xAI Grok API as the scan engine | Replaced: Automations already supply a Cursor-native model. |
+| Draft-only queue with no catalog writes | The agent must update the table and list. |
 | Full-file regenerate / re-rank all rows | Risks regressing prior wording, archives, and ordering. |
-| Pure RSS/keyword scrapers without an LLM | High false positives; weak narrative fit vs reporting patterns. |
-| Laptop `uvicorn` + APScheduler as the cron | The machine is off; production schedule is Cursor Cloud Automations. |
-| Hosted 24/7 FastAPI on Cursor VMs | Cloud agent VMs are ephemeral; cron launches a scan then exits. |
+| Laptop uvicorn + APScheduler as the cron | Machine is off; production is Cursor Cloud Automations. |
+| Cloud Agent edits markdown by hand | Prefix-preserving writer + validator stay in tested code. |
 
 ## Success criteria
 
-- Unit tests prove append-only writes: previous README/instances content remains an exact prefix after inserts.
+- Unit tests prove append-only writes and JSON ingest (no network, no xAI).
 - Validator + archive gates run before any catalog mutation.
-- Mock-client scan can append a new numbered entry to both files without altering earlier entries.
-- With `XAI_API_KEY` in Cursor Cloud secrets, a Cloud Automation can run the CLI daily and append catalog rows or complete with zero publishes.
-- Rejected candidates record machine-readable reasons and do not touch the catalog.
+- Cloud Automation prompt documents native Cursor discovery + ingest script.
+- Empty `candidates` list is a successful no-op (no commit).
 
 ## Failure criteria
 
 - Live scans invent uncited entities or sources that do not resolve.
-- Writer rewrites or reorders historical rows → supersede with a stricter lockfile/hash gate.
-- API cost makes daily scans impractical → narrower search ADR.
+- Writer rewrites or reorders historical rows.
+- Automation is created with “no repository” so it cannot edit the catalog.
 
 ## Consequences
 
-- Catalog files become live outputs of the agent; git history is the undo path.
-- Credibility still depends on validator + citation/archive gates; human review of git diffs remains recommended.
-- Requires an xAI API key in Cursor Cloud secrets for live mode; CI uses mocks and does not call the network.
-- Daily cadence is a Cursor Automation (cron UTC); in-process APScheduler stays off unless explicitly enabled for local debug.
+- Catalog files are live outputs; git history is the undo path.
+- Credibility still depends on validator + citation/archive gates.
+- Operators must create/update the Automation at cursor.com/automations (cannot be fully scripted from this repo).
+- No xAI secret is required.
 
 ## Outcome
 

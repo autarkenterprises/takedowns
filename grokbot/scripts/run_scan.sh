@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
-# One-shot GrokBot catalog scan for Cursor Cloud (and local CLI).
-# Requires XAI_API_KEY. Never starts the FastAPI server.
+# Ingest candidate JSON produced by a Cursor Cloud Agent Automation.
+# Does not call xAI/Grok. Usage: ./grokbot/scripts/run_scan.sh path/to/inbox.json
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-if [[ -z "${XAI_API_KEY:-}" ]]; then
-  echo "XAI_API_KEY is not set; refusing to scan." >&2
-  exit 1
+JSON="${1:-}"
+if [[ -z "$JSON" ]]; then
+  echo "usage: $0 <candidates.json>" >&2
+  exit 2
 fi
 
 if [[ ! -x .venv/bin/python ]]; then
@@ -16,4 +17,4 @@ if [[ ! -x .venv/bin/python ]]; then
 fi
 .venv/bin/pip install -q -r requirements.txt
 export PYTHONPATH="$ROOT/src"
-exec .venv/bin/python -m takedowns_grokbot.cli "$@"
+exec .venv/bin/python -m takedowns_grokbot.cli --from-json "$JSON"

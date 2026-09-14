@@ -1,0 +1,15 @@
+{
+  "candidates": [
+    {
+      "who": "Example Firearms Channel",
+      "audience": "~500K YouTube subs",
+      "when": "Sep 2026",
+      "platform": "YouTube",
+      "what_happened": "Partner Program removal for ordinary gun-review content with no manufacturing tutorials.",
+      "content_description": "ordinary firearm reviews",
+      "sources": ["https://news.example.com/creator-demonetized"],
+      "fit_rationale": "Matches ordinary lawful review content bar.",
+      "confidence": 0.82
+    }
+  ]
+}

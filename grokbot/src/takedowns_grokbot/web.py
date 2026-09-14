@@ -1,26 +1,27 @@
 """
-FastAPI web instance for GrokBot: scan controls, run history, published audit.
+FastAPI debug UI: ingest Cloud Agent JSON, inspect queue/run logs.
+
+Discovery is not performed here (no xAI/Grok). Production discovery is the
+Cursor Cloud Automation using Cursor's native model.
 """
 
 from __future__ import annotations
 
 import os
 import secrets
+import tempfile
 from contextlib import asynccontextmanager
 from pathlib import Path
 
-from apscheduler.schedulers.background import BackgroundScheduler
 from dotenv import load_dotenv
-from fastapi import FastAPI, Form, HTTPException, Request
+from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 from starlette.status import HTTP_303_SEE_OTHER
 
-from takedowns_grokbot.grok_client import GrokClient
 from takedowns_grokbot.queue_store import CandidateQueue
-from takedowns_grokbot.scanner import run_scan
+from takedowns_grokbot.scanner import StaticCandidateSource, run_scan
 
-# Package layout: grokbot/ is the project root (templates/, data/, src/).
 ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(ROOT / ".env")
 
@@ -29,64 +30,25 @@ README_PATH = Path(os.environ.get("GROKBOT_README", str(ROOT.parent / "README.md
 QUEUE_DIR = Path(os.environ.get("GROKBOT_QUEUE", str(ROOT / "data" / "candidates")))
 RUNS_DIR = Path(os.environ.get("GROKBOT_RUNS", str(ROOT / "data" / "runs")))
 TEMPLATES = Jinja2Templates(directory=str(ROOT / "templates"))
-
-INTERVAL_HOURS = float(os.environ.get("GROKBOT_INTERVAL_HOURS", "24"))
 ADMIN_TOKEN = os.environ.get("GROKBOT_ADMIN_TOKEN", "")
 
-_scheduler: BackgroundScheduler | None = None
 _last_error: str = ""
 _last_report: str = ""
 
 
 def _check_form_token(token: str | None) -> None:
-    """Shared-secret gate for mutating actions when GROKBOT_ADMIN_TOKEN is set."""
     if not ADMIN_TOKEN:
         return
     if not token or not secrets.compare_digest(token, ADMIN_TOKEN):
         raise HTTPException(status_code=401, detail="invalid admin token")
 
 
-def _do_scan() -> None:
-    """Shared scan path for scheduler and manual trigger."""
-    global _last_error, _last_report
-    try:
-        client = GrokClient()
-        report = run_scan(
-            catalog_path=CATALOG_PATH,
-            readme_path=README_PATH,
-            queue_dir=QUEUE_DIR,
-            runs_dir=RUNS_DIR,
-            client=client,
-        )
-        _last_error = ""
-        _last_report = (
-            f"{report.run_id}: discovered={report.discovered} "
-            f"accepted={report.accepted} rejected={report.rejected} — {report.notes}"
-        )
-    except Exception as exc:  # noqa: BLE001 - surface to UI
-        _last_error = str(exc)
-
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    global _scheduler
-    _scheduler = BackgroundScheduler()
-    # Default off: daily cadence lives on Cursor Cloud Automations, not this process.
-    if os.environ.get("GROKBOT_ENABLE_SCHEDULER", "0") not in ("0", "false", "False"):
-        _scheduler.add_job(
-            _do_scan,
-            "interval",
-            hours=INTERVAL_HOURS,
-            id="grokbot_scan",
-            replace_existing=True,
-        )
-        _scheduler.start()
     yield
-    if _scheduler:
-        _scheduler.shutdown(wait=False)
 
 
-app = FastAPI(title="Takedowns GrokBot", lifespan=lifespan)
+app = FastAPI(title="Takedowns catalog ingest", lifespan=lifespan)
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -102,21 +64,43 @@ def dashboard(request: Request):
             "published": published[:30],
             "rejected": rejected[:20],
             "runs": [p.name for p in runs],
-            "interval_hours": INTERVAL_HOURS,
             "last_error": _last_error,
             "last_report": _last_report,
             "catalog_path": str(CATALOG_PATH),
             "readme_path": str(README_PATH),
             "token_required": bool(ADMIN_TOKEN),
-            "has_api_key": bool(os.environ.get("XAI_API_KEY")),
         },
     )
 
 
-@app.post("/scan")
-def trigger_scan(token: str | None = Form(default=None)):
+@app.post("/ingest")
+async def ingest_json(
+    inbox: UploadFile = File(...),
+    token: str | None = Form(default=None),
+):
+    """Debug ingest of Cloud Agent candidate JSON (same gates as production)."""
+    global _last_error, _last_report
     _check_form_token(token)
-    _do_scan()
+    try:
+        raw = await inbox.read()
+        with tempfile.NamedTemporaryFile("wb", suffix=".json", delete=False) as tmp:
+            tmp.write(raw)
+            tmp_path = Path(tmp.name)
+        report = run_scan(
+            catalog_path=CATALOG_PATH,
+            readme_path=README_PATH,
+            queue_dir=QUEUE_DIR,
+            runs_dir=RUNS_DIR,
+            client=StaticCandidateSource.from_json_file(tmp_path),
+        )
+        tmp_path.unlink(missing_ok=True)
+        _last_error = ""
+        _last_report = (
+            f"{report.run_id}: discovered={report.discovered} "
+            f"accepted={report.accepted} rejected={report.rejected} — {report.notes}"
+        )
+    except Exception as exc:  # noqa: BLE001
+        _last_error = str(exc)
     return RedirectResponse(url="/", status_code=HTTP_303_SEE_OTHER)
 
 
@@ -134,5 +118,4 @@ def candidate_detail(request: Request, candidate_id: str):
 
 
 def create_app() -> FastAPI:
-    """Factory for uvicorn: ``uvicorn takedowns_grokbot.web:app``."""
     return app

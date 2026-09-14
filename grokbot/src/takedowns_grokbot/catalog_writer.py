@@ -115,13 +115,13 @@ def append_candidates(
     day = batch_date or date.today()
 
     instance_blocks: list[str] = [
-        f"\n## GrokBot findings ({day.isoformat()})\n"
+        f"\n## Cloud Agent findings ({day.isoformat()})\n"
         "Auto-appended after validator + Wayback gates. Numbers continue the catalog.\n"
     ]
     table_lines = [
-        f"\n## GrokBot findings ({day.isoformat()})\n",
-        "\nValidated discoveries appended by GrokBot (same inclusion bar; "
-        "prior batches unchanged).\n",
+        f"\n## Cloud Agent findings ({day.isoformat()})\n",
+        "\nValidated discoveries appended by the Cursor Cloud Agent "
+        "(same inclusion bar; prior batches unchanged).\n",
         "\n| # | Who | Audience | When | Platform | What happened |\n",
         "|---|-----|----------|------|----------|---------------|\n",
     ]

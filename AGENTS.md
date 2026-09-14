@@ -1,27 +1,55 @@
 # Takedowns agent notes
 
 This repository is the published catalog (`README.md`, `instances.txt`) plus
-the GrokBot scanner (`grokbot/`).
+the ingest pipeline (`grokbot/`).
 
 ## Cursor Cloud specific instructions
 
-Daily discovery must run **on Cursor Cloud**, not a laptop process.
+You **are** the discovery engine. Use Cursor’s native Cloud Agent model and
+tools (web search / browse). Do **not** call xAI, Grok, or `XAI_API_KEY`.
 
 When this is a scheduled Cloud Agent / Automation run (or when asked to scan):
 
-1. Confirm `XAI_API_KEY` is present in the environment (Cursor Dashboard → Cloud Agents → Secrets). If it is missing, stop and report; do not invent findings.
-2. From the repo root:
-   ```bash
-   ./grokbot/scripts/run_scan.sh
+1. Read `README.md`, `instances.txt`, and this file. Do not re-propose entities
+   already in the catalog.
+2. Search the public web for **new** cases of platforms punishing firearms
+   creators/brands for ordinary lawful content (reviews, sport photos, brand
+   pages, range demos). Exclude manufacturing tutorials, threats, and illegal
+   sales. Prefer recency × audience. Omit weak or uncitable cases.
+3. Write `grokbot/data/inbox.json` as:
+   ```json
+   {
+     "candidates": [
+       {
+         "who": "string",
+         "audience": "string",
+         "when": "string",
+         "platform": "string",
+         "what_happened": "string",
+         "content_description": "string",
+         "sources": ["https://..."],
+         "fit_rationale": "string",
+         "confidence": 0.0
+       }
+     ]
+   }
    ```
-3. The scanner appends only after validator + Wayback gates. Historical catalog bytes must remain an exact prefix of each file.
-4. If `README.md` and/or `instances.txt` changed:
+   If nothing meets the bar, write `"candidates": []`. Never invent sources.
+4. Run:
+   ```bash
+   ./grokbot/scripts/run_scan.sh grokbot/data/inbox.json
+   ```
+   The script validates, archives citations via Wayback, and appends to the
+   catalog. Historical catalog bytes must remain an exact prefix of each file.
+5. If `README.md` and/or `instances.txt` changed:
    - `git add README.md instances.txt`
-   - Commit with a message like `Append GrokBot findings from YYYY-MM-DD scan.`
-   - Checkout `master` if needed, fast-forward merge the scan commit, `git push` to the GitHub remote (`newrepo` / `origin`).
+   - Commit with a message like `Append Cloud Agent findings from YYYY-MM-DD scan.`
+   - Fast-forward into `master` and `git push` to GitHub.
    - Do **not** open a GitHub pull request as the merge gate.
-5. If the catalog is unchanged, make no commit.
-6. Do not rewrite, re-rank, or edit existing numbered rows. Do not commit `.env`, `.venv`, or secrets.
+6. If the catalog is unchanged, make no commit. Do not commit `.env`, `.venv`,
+   secrets, or `inbox.json` unless needed for audit (default: leave inbox
+   untracked).
+7. Do not rewrite, re-rank, or edit existing numbered rows.
 
 Tests (optional sanity before commit):
 
@@ -29,7 +57,7 @@ Tests (optional sanity before commit):
 cd grokbot && PYTHONPATH=src .venv/bin/python -m pytest -q
 ```
 
-## Inclusion bar (unchanged)
+## Inclusion bar
 
 Include ordinary lawful firearms content (reviews, sport photos, brand pages,
 range demos). Exclude manufacturing tutorials, threats, and illegal sales.

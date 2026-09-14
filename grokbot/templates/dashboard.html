@@ -62,26 +62,23 @@
 </head>
 <body>
 <main>
-  <h1>Takedowns GrokBot</h1>
-  <p class="sub">Recurring discovery of firearms-creator suppression. Validated findings append to both <code>README.md</code> and <code>instances.txt</code> without rewriting prior entries.</p>
+  <h1>Takedowns catalog ingest</h1>
+  <p class="sub">Debug UI for candidate JSON. Production discovery is a Cursor Cloud Agent Automation using Cursor’s native model. Validated findings append to both <code>README.md</code> and <code>instances.txt</code> without rewriting prior entries.</p>
 
   <section class="panel">
-    <div class="row">
-      <form method="post" action="/scan" class="row">
-        {% if token_required %}
-        <input type="password" name="token" placeholder="admin token" required />
-        {% endif %}
-        <button type="submit">Run scan now</button>
-      </form>
-      <span class="meta">Schedule: every {{ interval_hours }}h</span>
-    </div>
+    <form method="post" action="/ingest" enctype="multipart/form-data" class="row">
+      {% if token_required %}
+      <input type="password" name="token" placeholder="admin token" required />
+      {% endif %}
+      <input type="file" name="inbox" accept="application/json,.json" required />
+      <button type="submit">Ingest JSON</button>
+    </form>
     <p class="meta" style="margin-top:0.75rem">
       Catalog: <code>{{ catalog_path }}</code><br />
       README: <code>{{ readme_path }}</code>
     </p>
     <p class="meta">
-      API key: {% if has_api_key %}<span class="ok">present</span>{% else %}<span class="warn">missing (set XAI_API_KEY)</span>{% endif %}
-      {% if last_report %} · Last run: <span class="ok">{{ last_report }}</span>{% endif %}
+      {% if last_report %}Last run: <span class="ok">{{ last_report }}</span>{% endif %}
       {% if last_error %} · Error: <span class="warn">{{ last_error }}</span>{% endif %}
     </p>
   </section>

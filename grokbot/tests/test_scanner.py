@@ -9,7 +9,7 @@ from takedowns_grokbot.queue_store import CandidateQueue
 from takedowns_grokbot.scanner import run_scan
 
 
-class FakeGrokClient:
+class FakeDiscoveryClient:
     """Deterministic stand-in that returns one good and one bad draft."""
 
     def discover_candidates(self, known_summary: str):
@@ -91,7 +91,7 @@ def test_run_scan_publishes_only_accepted_without_regressing(tmp_path: Path):
         readme_path=readme,
         queue_dir=tmp_path / "candidates",
         runs_dir=tmp_path / "runs",
-        client=FakeGrokClient(),
+        client=FakeDiscoveryClient(),
         archive_fn=_fake_archive,
     )
     assert isinstance(report, ScanReport)

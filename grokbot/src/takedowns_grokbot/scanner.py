@@ -1,5 +1,8 @@
 """
-Orchestrate one discovery scan: Grok propose → validate → archive → append.
+Orchestrate one ingest cycle: proposed drafts → validate → archive → append.
+
+Discovery is the Cursor Cloud Agent (native Automation model). This module
+never calls xAI/Grok.
 """
 
 from __future__ import annotations
@@ -12,14 +15,30 @@ from typing import Callable, Protocol
 from takedowns_grokbot.archive import ensure_archives
 from takedowns_grokbot.catalog import load_catalog_index
 from takedowns_grokbot.catalog_writer import append_candidates
-from takedowns_grokbot.models import CandidateDraft, ScanReport
+from takedowns_grokbot.models import CandidateDraft, ScanReport, load_candidates_json
 from takedowns_grokbot.queue_store import CandidateQueue
 from takedowns_grokbot.validate import validate_candidate
 
 
-class GrokClientProtocol(Protocol):
+class DiscoveryClient(Protocol):
     def discover_candidates(self, known_summary: str) -> list[CandidateDraft]:
         ...
+
+
+class StaticCandidateSource:
+    """Inbox of drafts already produced by the Cursor Cloud Agent."""
+
+    def __init__(self, drafts: list[CandidateDraft]):
+        self._drafts = drafts
+
+    @classmethod
+    def from_json_file(cls, path: Path) -> "StaticCandidateSource":
+        return cls(load_candidates_json(path))
+
+    def discover_candidates(self, known_summary: str) -> list[CandidateDraft]:
+        # known_summary is unused: the Cloud Agent already had the catalog.
+        _ = known_summary
+        return list(self._drafts)
 
 
 ArchiveFn = Callable[[list[str]], dict[str, str]]
@@ -29,7 +48,7 @@ def run_scan(
     catalog_path: Path,
     queue_dir: Path,
     runs_dir: Path,
-    client: GrokClientProtocol,
+    client: DiscoveryClient,
     readme_path: Path | None = None,
     min_confidence: float = 0.55,
     archive_fn: ArchiveFn | None = None,
