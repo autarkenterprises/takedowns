@@ -15,7 +15,9 @@ illegal sales.
    reported age-gated videos get ~40% of prior views (~60% loss). Channel
    monthly views also fell ~18M (2022) -> ~8M (later year).
    Sources: https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+            archive: https://web.archive.org/web/20241020151414/https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
             https://smokinggun.org/popular-guntube-channel-demolition-ranch-to-shut-down/
+            archive: https://web.archive.org/web/20250313010754/https://smokinggun.org/popular-guntube-channel-demolition-ranch-to-shut-down/
 
 2. Hickok45 (Greg/John Kinman)
    Audience: ~7.8M YouTube subs
@@ -25,7 +27,9 @@ illegal sales.
    because lawful gun/accessory sponsor links (spoken or written) became
    strike/termination territory.
    Sources: https://www.thetruthaboutguns.com/youtube-sets-sights-on-hickok45-videos/
+            archive: https://web.archive.org/web/20240718191839/https://www.thetruthaboutguns.com/youtube-sets-sights-on-hickok45-videos/
             https://thereload.com/youtube-says-links-to-gun-ammo-dealers-will-trigger-channel-bans/
+            archive: https://web.archive.org/web/20240821211113/https://thereload.com/youtube-says-links-to-gun-ammo-dealers-will-trigger-channel-bans/
 
 3. Smith & Wesson
    Audience: ~1.6M Facebook followers
@@ -35,6 +39,7 @@ illegal sales.
    (~5 days: Nov 22-27); Meta later called it an "error" and restored it after
    public backlash.
    Source: https://www.foxnews.com/politics/facebook-silent-after-banning-reinstating-popular-gun-manufacturer
+           archive: https://web.archive.org/web/20241204003608/https://www.foxnews.com/politics/facebook-silent-after-banning-reinstating-popular-gun-manufacturer
 
 4. Guns.com
    Audience: ~395K YouTube subs; 120M+ views
@@ -43,7 +48,9 @@ illegal sales.
    What: Multiple strikes and ~1 month of suspensions for content they said
    matched written policy; quit posting after 13 years and moved to Rumble/X.
    Sources: https://www.guns.com/news/2024/09/16/why-we-quit-youtube
+            archive: https://web.archive.org/web/20251105100429/https://www.guns.com/news/2024/09/16/why-we-quit-youtube
             https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+            archive: https://web.archive.org/web/20241020151414/https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
 
 5. The Gun Collective (Jon Patton)
    Audience: ~369K YouTube subs
@@ -53,6 +60,7 @@ illegal sales.
    listed in writing) treated as channel-killing risk for standard
    review/sponsorship content.
    Source: https://thereload.com/youtube-says-links-to-gun-ammo-dealers-will-trigger-channel-bans/
+           archive: https://web.archive.org/web/20240821211113/https://thereload.com/youtube-says-links-to-gun-ammo-dealers-will-trigger-channel-bans/
 
 6. GunGuyTV (Joel Persinger)
    Audience: ~223K YouTube subs
@@ -61,6 +69,7 @@ illegal sales.
    What: Abandoned ~70-80% of prior output (reviews/sponsored firearm content)
    on YouTube; shifted that work to Rumble.
    Source: https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+           archive: https://web.archive.org/web/20241020151414/https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
 
 7. Old Row Outdoors
    Audience: ~105K YouTube subs
@@ -69,7 +78,9 @@ illegal sales.
    What: Partner Program removal after a policy review of hunting/outdoors
    firearm content; quit for Rumble.
    Sources: https://reclaimthenet.org/gun-channels-embrace-rumble-after-youtube-censorship
+            archive: https://web.archive.org/web/20240917181745/https://reclaimthenet.org/gun-channels-embrace-rumble-after-youtube-censorship
             https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+            archive: https://web.archive.org/web/20241020151414/https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
 
 8. Big Horn Armory
    Audience: Manufacturer channel (full library wiped)
@@ -79,7 +90,9 @@ illegal sales.
    years-old range demos (e.g. shooting frozen chickens)--no build tutorials
    or sales pitches.
    Sources: https://bearingarms.com/john-petrolino/2026/05/20/prominent-rifle-manufacturer-deplatformed-from-youtube-n1232587
+            archive: https://web.archive.org/web/20260521012628/https://bearingarms.com/john-petrolino/2026/05/20/prominent-rifle-manufacturer-deplatformed-from-youtube-n1232587
             https://www.thefirearmblog.com/blog/big-horn-armory-youtube-channel-is-removed-44828503
+            archive: https://web.archive.org/web/20260531004725/https://www.thefirearmblog.com/blog/big-horn-armory-youtube-channel-is-removed-44828503
 
 9. USA Shooting athletes (McKenna Geer; also Conner Prince, Vincent Hancock)
    Audience: Olympic/Paralympic reach; congressional attention
@@ -88,7 +101,9 @@ illegal sales.
    What: Accounts restricted / non-recommended for competition photos with
    rifles/shotguns--air-rifle sport content treated as "regulated goods."
    Sources: https://justthenews.com/nation/culture/instagram-censors-accounts-paralympian-other-athletes-usa-shooting-teams-firearm
+            archive: https://web.archive.org/web/20260520221602/https://justthenews.com/nation/culture/instagram-censors-accounts-paralympian-other-athletes-usa-shooting-teams-firearm
             http://gonzalez.house.gov/media/press-releases/congressman-gonzalez-seeks-answers-meta-over-recent-shadow-bans-team-usas
+            archive: https://web.archive.org/web/20250626160717/https://gonzalez.house.gov/media/press-releases/congressman-gonzalez-seeks-answers-meta-over-recent-shadow-bans-team-usas
 
 10. Army West Point Rifle Team
     Audience: Official U.S. Military Academy athletics page
@@ -97,7 +112,9 @@ illegal sales.
     What: Page "unpublished" because "Army West Point Rifle goes against our
     Community Standards."
     Sources: https://bearingarms.com/camedwards/2024/07/25/muzzled-by-meta-competitive-shooters-silenced-on-facebook-instagram-n1225731
+             archive: https://web.archive.org/web/20240725194952/https://bearingarms.com/camedwards/2024/07/25/muzzled-by-meta-competitive-shooters-silenced-on-facebook-instagram-n1225731
              https://www.nssf.org/articles/big-tech-anti-2a-censorship-strikes-again/
+             archive: https://web.archive.org/web/20240731073246/https://www.nssf.org/articles/big-tech-anti-2a-censorship-strikes-again/
 
 Notes on criterion fit:
 - Cleanest "punished for guns themselves" fits: #3 (Meta admitted error), #8
@@ -120,7 +137,9 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     What: Suppressor and related firearms videos removed in a platform-wide
     enforcement wave that YouTube later called a mistake and reversed.
     Sources: https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm
+             archive: https://web.archive.org/web/20250808211012/https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm
              https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+             archive: https://web.archive.org/web/20230203174043/https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
 
 12. Forgotten Weapons (Ian McCollum)
     Audience: ~2.5M YouTube subs
@@ -130,6 +149,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     removed for alleged firearms-policy violation; later restored after press
     inquiry. YouTube admitted the suppressor crackdown was erroneous.
     Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+            archive: https://web.archive.org/web/20230203174043/https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
 
 13. SilencerCo (manufacturer channel)
     Audience: Major suppressor brand channel
@@ -139,6 +159,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     YouTube later restored deleted manufacturer/media channels as mistaken
     enforcement.
     Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+            archive: https://web.archive.org/web/20230203174043/https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
 
 14. Top Shot Dustin
     Audience: ~775K YouTube subs
@@ -147,6 +168,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     What: Suppressor demo video removed, then restored after YouTube conceded
     the wave was a mistake.
     Source: https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm
+            archive: https://web.archive.org/web/20250808211012/https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm
 
 15. Mrgunsngear
     Audience: Large firearms review channel
@@ -155,6 +177,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     What: Content removals plus temporary channel suspension during the
     suppressor enforcement wave; later reinstated.
     Source: https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm
+            archive: https://web.archive.org/web/20250808211012/https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2023/02/02/gun-accounts-turn-rumble-youtube-takes-aim-firearm
 
 16. Ammoland and Recoil Magazine (official channels)
     Audience: Industry media brands
@@ -163,6 +186,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     What: Entire official channels deleted in the same suppressor wave; later
     restored after YouTube called the takedowns mistakes.
     Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+            archive: https://web.archive.org/web/20230203174043/https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
 
 17. SIG Sauer
     Audience: Major firearms manufacturer
@@ -172,6 +196,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     remained up)--first reported full takedown of a major gunmaker's IG
     presence of that kind.
     Source: https://soldiersystems.net/2023/02/20/instagram-suspends-sig-sauer-account/
+            archive: https://web.archive.org/web/20230319165320/https://soldiersystems.net/2023/02/20/instagram-suspends-sig-sauer-account/
 
 18. Honest Outlaw
     Audience: ~217K+ YouTube subs (at time)
@@ -180,6 +205,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     What: Fully removed from the Partner Program for ordinary gun-review
     content; support gave no usable explanation of which rule was broken.
     Source: https://www.ammoland.com/2019/07/youtube-removes-gun-channels-from-their-partner-program/
+            archive: https://web.archive.org/web/20190716233750/https://www.ammoland.com/2019/07/youtube-removes-gun-channels-from-their-partner-program/
 
 19. Booligan Shooting Sports
     Audience: ~300K YouTube subs
@@ -189,6 +215,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     with unhelpful appeals--illustrative of opaque enforcement beyond the
     suppressor wave.
     Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+            archive: https://web.archive.org/web/20230203174043/https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
 
 20. Justin Opinion
     Audience: ~84K YouTube subs; 23M+ views (at time)
@@ -198,6 +225,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     a firearm in gun reviews; YouTube ads had covered ~40-50% of channel
     expenses and dropped to zero.
     Source: https://reclaimthenet.org/justin-opinion-youtube-demonetized
+            archive: https://web.archive.org/web/20210409205458/https://reclaimthenet.org/justin-opinion-youtube-demonetized/
 
 21. C&Rsenal
     Audience: Growing historical-arms channel (later hundreds of thousands)
@@ -206,7 +234,9 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     What: Partner Program eligibility pulled for "harmful content" despite
     documentary coverage of historical military small arms.
     Sources: https://reclaimthenet.org/youtube-demonetizes-crsenal-historical-military-weapons-channel
+             archive: https://web.archive.org/web/20200111075353/https://reclaimthenet.org/youtube-demonetizes-crsenal-historical-military-weapons-channel/
              https://www.forbes.com/sites/petersuciu/2020/12/01/youtubes-firearms-history-channel-crsenal-has-faced-de-monetization-but-keeps-growing-its-audience/
+             archive: https://web.archive.org/web/20250222155057/https://www.forbes.com/sites/petersuciu/2020/12/01/youtubes-firearms-history-channel-crsenal-has-faced-de-monetization-but-keeps-growing-its-audience/
 
 22. Cape Gun Works (Toby Leary)
     Audience: ~26K YouTube subs; 10 years of videos
@@ -216,6 +246,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     2A/firearms educational content; struck days before a prior strike would
     have expired.
     Source: https://www.johnfgately.com/p/breaking-toby-learys-cape-gun-works
+            archive: https://web.archive.org/web/20250929180837/https://www.johnfgately.com/p/breaking-toby-learys-cape-gun-works
 
 23. Weatherby
     Audience: Established rifle manufacturer
@@ -224,6 +255,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     What: Unexplained strikes on product and podcast videos despite care to
     avoid sales pitches; no human recourse reported.
     Source: https://cowboystatedaily.com/2026/05/21/wyoming-firearms-companies-say-youtube-unfairly-targets-gun-related-content/
+            archive: https://web.archive.org/web/20260523180540/https://cowboystatedaily.com/2026/05/21/wyoming-firearms-companies-say-youtube-unfairly-targets-gun-related-content/
 
 24. Gunblast (Boge Quinn)
     Audience: Long-running firearms review outlet
@@ -232,6 +264,7 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     What: Channel run off the platform without clear guidance; earlier
     demonetization while ads still ran on the content.
     Source: https://cowboystatedaily.com/2026/05/21/wyoming-firearms-companies-say-youtube-unfairly-targets-gun-related-content/
+            archive: https://web.archive.org/web/20260523180540/https://cowboystatedaily.com/2026/05/21/wyoming-firearms-companies-say-youtube-unfairly-targets-gun-related-content/
 
 25. Firearms Guide
     Audience: ~22.8K YouTube subs
@@ -240,14 +273,17 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     What: Two community-guideline strikes (one from permanent ban); left
     YouTube for X/Rumble citing unkeepable rule churn.
     Source: https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
+            archive: https://web.archive.org/web/20241020151414/https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
 
 Also notable (batch 2 footnotes):
 - Black Swan Media (John Crump): 2019 Partner Program removal labeled "harmful
   content" for 2A interviews/livestreams with no gun sales or reviews.
   Source: https://www.ammoland.com/2019/07/youtube-removes-gun-channels-from-their-partner-program/
+          archive: https://web.archive.org/web/20190716233750/https://www.ammoland.com/2019/07/youtube-removes-gun-channels-from-their-partner-program/
 - PDX Arsenal (safety instructor): Meta reach collapse on Facebook/Instagram
   for lawful training posts.
   Source: https://www.foxnews.com/media/gun-safety-instructor-says-facebook-instagram-are-unfairly-shadow-banning-not-alone
+          archive: https://web.archive.org/web/20241118124051/https://www.foxnews.com/media/gun-safety-instructor-says-facebook-instagram-are-unfairly-shadow-banning-not-alone
 
 ------------------------------------------------------------------------------
 Additional instances (batch 3)
@@ -264,7 +300,9 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     reports hundreds of videos deleted in one sweep after YouTube support had
     said they complied.
     Sources: https://www.recoilweb.com/iraqveteran8888-and-censorship-of-the-second-amendment-163259.html
+             archive: https://web.archive.org/web/20201028085952/https://www.recoilweb.com/iraqveteran8888-and-censorship-of-the-second-amendment-163259.html
              https://www.americas1stfreedom.org/content/second-amendment-censorship/
+             archive: https://web.archive.org/web/20260423021540/https://www.americas1stfreedom.org/content/second-amendment-censorship/
 
 27. 22plinkster (Dave Nash)
     Audience: ~1M YouTube subs; 208M+ views
@@ -273,6 +311,7 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     What: Rimfire/plinking channel struck amid firearms-policy pressure; Nash
     said Google/YouTube ad income fell from ~70% of his income to ~5-10%.
     Source: https://www.outdoorlife.com/guns/youtube-firearms-content-ban/
+            archive: https://web.archive.org/web/20260709061841/https://www.outdoorlife.com/guns/youtube-firearms-content-ban/
 
 28. Kit Badger (Ivan Loomis)
     Audience: ~138K YouTube subs
@@ -282,6 +321,7 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     later called a mistake; restored with a strike that blocked uploads for
     additional weeks.
     Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+            archive: https://web.archive.org/web/20230203174043/https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
 
 29. Texas Gun Vault (Jason)
     Audience: Under 100K at full YPP cut; multi-year channel
@@ -292,8 +332,11 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     as "building" a gun; channel fully deleted (twice) in the Jan-Feb 2023
     suppressor wave before restoration.
     Sources: https://bearingarms.com/john-petrolino/2022/01/27/he-followed-the-rules-yet-youtube-demonetized-him-the-new-witch-hunt-n54862
+             archive: https://web.archive.org/web/20220128004326/https://bearingarms.com/john-petrolino/2022/01/27/he-followed-the-rules-yet-youtube-demonetized-him-the-new-witch-hunt-n54862
              https://bearingarms.com/john-petrolino/2022/12/30/texas-gun-vault-youtuber-on-suspension-for-building-a-gun-n65698
+             archive: https://web.archive.org/web/20221230150353/https://bearingarms.com/john-petrolino/2022/12/30/texas-gun-vault-youtuber-on-suspension-for-building-a-gun-n65698
              https://bearingarms.com/john-petrolino/2023/02/03/after-youtube-owns-mistake-with-gun-videos-what-happens-next-n66951
+             archive: https://web.archive.org/web/20230203212435/https://bearingarms.com/john-petrolino/2023/02/03/after-youtube-owns-mistake-with-gun-videos-what-happens-next-n66951
 
 30. NFA Review Channel (Adam Johnson)
     Audience: Decade of suppressor education content
@@ -302,6 +345,7 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     What: Strikes/threat of permanent deletion for mounting-suppressor footage;
     began prioritizing Rumble while still uploading to YouTube.
     Source: https://www.ammoland.com/2023/01/youtube-censorship-of-suppressor-content-wholesale-deletion-of-creators/
+            archive: https://web.archive.org/web/20230120193028/https://www.ammoland.com/2023/01/youtube-censorship-of-suppressor-content-wholesale-deletion-of-creators/
 
 31. Silencer Central
     Audience: Suppressor retailer/brand channel
@@ -310,6 +354,7 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     What: Numerous videos pulled in the same suppressor wave YouTube later
     admitted was erroneous enforcement.
     Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+            archive: https://web.archive.org/web/20230203174043/https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
 
 32. Spike's Tactical
     Audience: Major AR manufacturer; ~111K+ Facebook followers (at time)
@@ -319,7 +364,9 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     YouTube spokeswoman said it was mistakenly removed and reinstated it within
     days.
     Sources: https://www.ammoland.com/2018/03/youtube-bans-censors-major-gun-manufacturer-without-warning/
+             archive: https://web.archive.org/web/20180322022634/https://www.ammoland.com/2018/03/youtube-bans-censors-major-gun-manufacturer-without-warning/
              https://www.latimes.com/business/la-fi-tn-youtube-gun-videos-20180322-story.html
+             archive: https://web.archive.org/web/20250514072702/https://www.latimes.com/business/la-fi-tn-youtube-gun-videos-20180322-story.html
 
 33. Brownells
     Audience: ~69K YouTube subs; major parts/accessories retailer
@@ -329,7 +376,9 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     maintenance/safety/gunsmithing videos; YouTube restored it and said
     "sometimes we make the wrong call."
     Sources: https://www.desmoinesregister.com/story/money/business/2018/06/11/brownells-youtube-temporarily-blocks-gun-video-channel/690347002/
+             archive: https://web.archive.org/web/20260914045039/https://www.desmoinesregister.com/story/money/business/2018/06/11/brownells-youtube-temporarily-blocks-gun-video-channel/690347002/
              https://www.dailymail.com/sciencetech/article-5828905/YouTube-bans-videos-firearms-retailer-Brownells-without-warning.html
+             archive: https://web.archive.org/web/20260914044948/https://www.dailymail.com/sciencetech/article-5828905/YouTube-bans-videos-firearms-retailer-Brownells-without-warning.html
 
 34. Bloke on the Range
     Audience: Historical/military firearms education channel
@@ -339,6 +388,7 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     spam/TOS issues tied to historical reloading content; reinstated within
     ~72 hours.
     Source: https://www.thefirearmblog.com/blog/2018/05/30/bloke-on-the-range-gets-terminated-then-reinstated/
+            archive: https://web.archive.org/web/20180602015747/http://www.thefirearmblog.com:80/blog/2018/05/30/bloke-on-the-range-gets-terminated-then-reinstated
 
 35. GUNS Magazine (Instagram)
     Audience: Established firearms-industry media title
@@ -348,3 +398,4 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     Recommendations Guidelines despite no Community Standards violation--reach
     cut for ordinary gun-media posts.
     Source: https://shootingindustry.com/industry-news/in-the-shadows/
+            archive: https://web.archive.org/web/20240421044513/https://shootingindustry.com/industry-news/in-the-shadows/
