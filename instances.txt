@@ -1,6 +1,8 @@
 Firearms creators punished for ordinary gun content
 Batch 1 (#1-10): 2024-2026, ranked by recency x audience size.
 Batch 2 (#11-25): additional cases, same criterion, ranked within batch.
+Batch 3 (#26-35): further cases clearing the same significance bar (only
+qualifying cases included).
 Criterion: punishment for ordinary lawful firearms content (reviews, sport
 photos, brand pages, range demos)--not manufacturing tutorials, threats, or
 illegal sales.
@@ -240,13 +242,109 @@ Numbers continue from batch 1. Compiled 2026-09-13.
     Source: https://www.nbcnews.com/tech/internet/gun-youtube-creators-are-leaving-platform-company-cracks-firearm-video-rcna173694
 
 Also notable (batch 2 footnotes):
-- GUNS Magazine (Instagram): notified it can "no longer be shown to
-  non-followers" under Recommendations Guidelines without a Community Standards
-  violation.
-  Source: https://shootingindustry.com/industry-news/in-the-shadows/
 - Black Swan Media (John Crump): 2019 Partner Program removal labeled "harmful
   content" for 2A interviews/livestreams with no gun sales or reviews.
   Source: https://www.ammoland.com/2019/07/youtube-removes-gun-channels-from-their-partner-program/
 - PDX Arsenal (safety instructor): Meta reach collapse on Facebook/Instagram
   for lawful training posts.
   Source: https://www.foxnews.com/media/gun-safety-instructor-says-facebook-instagram-are-unfairly-shadow-banning-not-alone
+
+------------------------------------------------------------------------------
+Additional instances (batch 3)
+Ten further cases meeting the same criterion and significance bar (recency x
+audience, citable sources). Only cases that cleared the bar are included.
+Numbers continue from batch 2. Compiled 2026-09-13.
+
+26. Iraqveteran8888 (Eric Blandford)
+    Audience: ~2.7M+ YouTube subs
+    When: Documented through ~2021+
+    Platform: YouTube
+    What: Creator reported recommendation suppression cutting typical viral
+    reach from ~2-3M views / 90 days to ~250K; NRA's America's 1st Freedom
+    reports hundreds of videos deleted in one sweep after YouTube support had
+    said they complied.
+    Sources: https://www.recoilweb.com/iraqveteran8888-and-censorship-of-the-second-amendment-163259.html
+             https://www.americas1stfreedom.org/content/second-amendment-censorship/
+
+27. 22plinkster (Dave Nash)
+    Audience: ~1M YouTube subs; 208M+ views
+    When: Sep 2024 (reported)
+    Platform: YouTube
+    What: Rimfire/plinking channel struck amid firearms-policy pressure; Nash
+    said Google/YouTube ad income fell from ~70% of his income to ~5-10%.
+    Source: https://www.outdoorlife.com/guns/youtube-firearms-content-ban/
+
+28. Kit Badger (Ivan Loomis)
+    Audience: ~138K YouTube subs
+    When: Jan-Feb 2023
+    Platform: YouTube
+    What: Entire channel deleted in the suppressor-enforcement wave YouTube
+    later called a mistake; restored with a strike that blocked uploads for
+    additional weeks.
+    Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+
+29. Texas Gun Vault (Jason)
+    Audience: Under 100K at full YPP cut; multi-year channel
+    When: 2022-2023
+    Platform: YouTube
+    What: Full Partner Program removal (Jan 2022) despite rule-following
+    reviews; week-long suspension (Dec 2022) for a suppressor unboxing labeled
+    as "building" a gun; channel fully deleted (twice) in the Jan-Feb 2023
+    suppressor wave before restoration.
+    Sources: https://bearingarms.com/john-petrolino/2022/01/27/he-followed-the-rules-yet-youtube-demonetized-him-the-new-witch-hunt-n54862
+             https://bearingarms.com/john-petrolino/2022/12/30/texas-gun-vault-youtuber-on-suspension-for-building-a-gun-n65698
+             https://bearingarms.com/john-petrolino/2023/02/03/after-youtube-owns-mistake-with-gun-videos-what-happens-next-n66951
+
+30. NFA Review Channel (Adam Johnson)
+    Audience: Decade of suppressor education content
+    When: Jan 2023
+    Platform: YouTube
+    What: Strikes/threat of permanent deletion for mounting-suppressor footage;
+    began prioritizing Rumble while still uploading to YouTube.
+    Source: https://www.ammoland.com/2023/01/youtube-censorship-of-suppressor-content-wholesale-deletion-of-creators/
+
+31. Silencer Central
+    Audience: Suppressor retailer/brand channel
+    When: Jan-Feb 2023
+    Platform: YouTube
+    What: Numerous videos pulled in the same suppressor wave YouTube later
+    admitted was erroneous enforcement.
+    Source: https://thereload.com/youtube-says-silencer-video-takedowns-gun-channel-deletions-were-mistakes/
+
+32. Spike's Tactical
+    Audience: Major AR manufacturer; ~111K+ Facebook followers (at time)
+    When: Mar 2018
+    Platform: YouTube
+    What: Channel terminated without warning amid firearms-policy crackdown;
+    YouTube spokeswoman said it was mistakenly removed and reinstated it within
+    days.
+    Sources: https://www.ammoland.com/2018/03/youtube-bans-censors-major-gun-manufacturer-without-warning/
+             https://www.latimes.com/business/la-fi-tn-youtube-gun-videos-20180322-story.html
+
+33. Brownells
+    Audience: ~69K YouTube subs; major parts/accessories retailer
+    When: Jun 2018
+    Platform: YouTube
+    What: Channel terminated without warning (~40 hours offline), including
+    maintenance/safety/gunsmithing videos; YouTube restored it and said
+    "sometimes we make the wrong call."
+    Sources: https://www.desmoinesregister.com/story/money/business/2018/06/11/brownells-youtube-temporarily-blocks-gun-video-channel/690347002/
+             https://www.dailymail.com/sciencetech/article-5828905/YouTube-bans-videos-firearms-retailer-Brownells-without-warning.html
+
+34. Bloke on the Range
+    Audience: Historical/military firearms education channel
+    When: May 2018
+    Platform: YouTube
+    What: Account terminated (appeal denied in ~37 minutes) over alleged
+    spam/TOS issues tied to historical reloading content; reinstated within
+    ~72 hours.
+    Source: https://www.thefirearmblog.com/blog/2018/05/30/bloke-on-the-range-gets-terminated-then-reinstated/
+
+35. GUNS Magazine (Instagram)
+    Audience: Established firearms-industry media title
+    When: Reported mid-2020s
+    Platform: Instagram/Meta
+    What: Account notified it can "no longer be shown to non-followers" under
+    Recommendations Guidelines despite no Community Standards violation--reach
+    cut for ordinary gun-media posts.
+    Source: https://shootingindustry.com/industry-news/in-the-shadows/
