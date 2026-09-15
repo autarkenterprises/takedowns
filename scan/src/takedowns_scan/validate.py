@@ -1,5 +1,5 @@
 """
-Rigor gates applied after Grok proposes a candidate and before queueing.
+Rigor gates applied after a Cloud Agent proposes a candidate and before queueing.
 """
 
 from __future__ import annotations
@@ -7,9 +7,9 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
 
-from takedowns_grokbot.catalog import normalize_entity_name, normalize_source_url
-from takedowns_grokbot.criterion import evaluate_criterion_fit
-from takedowns_grokbot.models import CandidateDraft
+from takedowns_scan.catalog import normalize_entity_name, normalize_source_url
+from takedowns_scan.criterion import evaluate_criterion_fit
+from takedowns_scan.models import CandidateDraft
 
 
 @dataclass

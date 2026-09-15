@@ -1,8 +1,8 @@
 """
 Orchestrate one ingest cycle: proposed drafts → validate → archive → append.
 
-Discovery is the Cursor Cloud Agent (native Automation model). This module
-never calls xAI/Grok.
+Discovery is the Cursor Cloud Agent (account default model). This module
+only ingests already-proposed JSON.
 """
 
 from __future__ import annotations
@@ -12,12 +12,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable, Protocol
 
-from takedowns_grokbot.archive import ensure_archives
-from takedowns_grokbot.catalog import load_catalog_index
-from takedowns_grokbot.catalog_writer import append_candidates
-from takedowns_grokbot.models import CandidateDraft, ScanReport, load_candidates_json
-from takedowns_grokbot.queue_store import CandidateQueue
-from takedowns_grokbot.validate import validate_candidate
+from takedowns_scan.archive import ensure_archives
+from takedowns_scan.catalog import load_catalog_index
+from takedowns_scan.catalog_writer import append_candidates
+from takedowns_scan.models import CandidateDraft, ScanReport, load_candidates_json
+from takedowns_scan.queue_store import CandidateQueue
+from takedowns_scan.validate import validate_candidate
 
 
 class DiscoveryClient(Protocol):

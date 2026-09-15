@@ -4,7 +4,7 @@ Tests for parsing the plaintext catalog and duplicate detection.
 
 from pathlib import Path
 
-from takedowns_grokbot.catalog import CatalogIndex, load_catalog_index
+from takedowns_scan.catalog import CatalogIndex, load_catalog_index
 
 
 SAMPLE_INSTANCES = """\

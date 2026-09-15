@@ -12,7 +12,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from takedowns_grokbot.scanner import StaticCandidateSource, run_scan
+from takedowns_scan.scanner import StaticCandidateSource, run_scan
 
 ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(ROOT / ".env")
@@ -22,7 +22,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description=(
             "Ingest candidate JSON from a Cursor Cloud Agent and append "
-            "validated findings to the catalog. Does not call xAI/Grok."
+            "validated findings to the catalog."
         )
     )
     parser.add_argument(
@@ -32,19 +32,19 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         "--catalog",
-        default=os.environ.get("GROKBOT_CATALOG", str(ROOT.parent / "instances.txt")),
+        default=os.environ.get("SCAN_CATALOG", str(ROOT.parent / "instances.txt")),
     )
     parser.add_argument(
         "--readme",
-        default=os.environ.get("GROKBOT_README", str(ROOT.parent / "README.md")),
+        default=os.environ.get("SCAN_README", str(ROOT.parent / "README.md")),
     )
     parser.add_argument(
         "--queue",
-        default=os.environ.get("GROKBOT_QUEUE", str(ROOT / "data" / "candidates")),
+        default=os.environ.get("SCAN_QUEUE", str(ROOT / "data" / "candidates")),
     )
     parser.add_argument(
         "--runs",
-        default=os.environ.get("GROKBOT_RUNS", str(ROOT / "data" / "runs")),
+        default=os.environ.get("SCAN_RUNS", str(ROOT / "data" / "runs")),
     )
     args = parser.parse_args(argv)
     json_path = Path(args.from_json)

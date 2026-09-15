@@ -1,14 +1,14 @@
-# Catalog ingest (`grokbot/`)
+# Catalog ingest (`scan/`)
 
 Python gates for the Takedowns catalog. **Discovery** is a Cursor Cloud Agent
-Automation using Cursor’s native model. This package only **ingests** that
+using Cursor’s native model. This package only **ingests** that
 agent’s JSON: validate, Wayback-archive, append-only write to:
 
 - `../README.md` — markdown table rows
 - `../instances.txt` — plaintext list
 
 Prior catalog content is preserved as an **exact prefix**. Design:
-[docs/adr/0001-grokbot-recurring-scanner.md](../docs/adr/0001-grokbot-recurring-scanner.md).
+[docs/adr/0001-recurring-catalog-scanner.md](../docs/adr/0001-recurring-catalog-scanner.md).
 
 ## Standards
 
@@ -24,7 +24,7 @@ Agent with a User API Key:
 
 ```bash
 export CURSOR_API_KEY='…'   # from https://cursor.com/dashboard/api
-./grokbot/scripts/launch_cloud_agent.sh
+./scan/scripts/launch_cloud_agent.sh
 ```
 
 Daily trigger: GitHub Actions `.github/workflows/daily-cloud-scan.yml` (`0 12 * * *` UTC) calling the same launcher. Details: [docs/cursor-cloud-daily-scan.md](../docs/cursor-cloud-daily-scan.md).
@@ -32,24 +32,24 @@ Daily trigger: GitHub Actions `.github/workflows/daily-cloud-scan.yml` (`0 12 * 
 ## Local ingest
 
 ```bash
-cd grokbot
+cd scan
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-PYTHONPATH=src python -m takedowns_grokbot.cli --from-json path/to/inbox.json
+PYTHONPATH=src python -m takedowns_scan.cli --from-json path/to/inbox.json
 ```
 
 Optional debug UI (JSON upload only):
 
 ```bash
 export PYTHONPATH=src
-uvicorn takedowns_grokbot.web:app --host 127.0.0.1 --port 8765
+uvicorn takedowns_scan.web:app --host 127.0.0.1 --port 8765
 ```
 
 ## Tests
 
 ```bash
-cd grokbot
+cd scan
 source .venv/bin/activate
 pytest -q
 ```
@@ -58,6 +58,6 @@ pytest -q
 
 | Variable | Purpose |
 |----------|---------|
-| `GROKBOT_CATALOG` | Path to `instances.txt` |
-| `GROKBOT_README` | Path to `README.md` |
-| `GROKBOT_ADMIN_TOKEN` | Optional shared secret for the debug ingest form |
+| `SCAN_CATALOG` | Path to `instances.txt` |
+| `SCAN_README` | Path to `README.md` |
+| `SCAN_ADMIN_TOKEN` | Optional shared secret for the debug ingest form |

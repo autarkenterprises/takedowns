@@ -1,6 +1,6 @@
 # Cursor Cloud daily scan
 
-Discovery uses **Cursor’s native Cloud Agent** (account default model), not Grok.
+Discovery uses **Cursor’s native Cloud Agent** (account default model).
 Python only **ingests** the agent’s JSON.
 
 ## Why not cursor.com/automations from CLI
@@ -26,7 +26,7 @@ export CURSOR_API_KEY='…'
 3. Launch one Cloud Agent now:
 
 ```bash
-./grokbot/scripts/launch_cloud_agent.sh
+./scan/scripts/launch_cloud_agent.sh
 ```
 
 4. Store the same key as a GitHub Actions secret so the daily cron can fire:
@@ -39,4 +39,4 @@ The workflow is [`.github/workflows/daily-cloud-scan.yml`](../.github/workflows/
 
 ## Agent prompt
 
-[`grokbot/cloud_prompt.txt`](../grokbot/cloud_prompt.txt) is what every launch sends.
+[`scan/cloud_prompt.txt`](../scan/cloud_prompt.txt) is what every launch sends.

@@ -2,8 +2,8 @@
 Tests for candidate schema validation and rigor gates before queueing.
 """
 
-from takedowns_grokbot.models import CandidateDraft
-from takedowns_grokbot.validate import ValidationResult, validate_candidate
+from takedowns_scan.models import CandidateDraft
+from takedowns_scan.validate import ValidationResult, validate_candidate
 
 
 def _base(**overrides):

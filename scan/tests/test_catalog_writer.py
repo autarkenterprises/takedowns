@@ -4,12 +4,12 @@ Append-only catalog writer tests: never regress prior README / instances text.
 
 from pathlib import Path
 
-from takedowns_grokbot.catalog_writer import (
+from takedowns_scan.catalog_writer import (
     AppendResult,
     append_candidates,
     next_entry_number,
 )
-from takedowns_grokbot.models import CandidateDraft
+from takedowns_scan.models import CandidateDraft
 
 
 README_SEED = """# Takedowns

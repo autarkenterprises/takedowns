@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Ingest candidate JSON produced by a Cursor Cloud Agent Automation.
-# Does not call xAI/Grok. Usage: ./grokbot/scripts/run_scan.sh path/to/inbox.json
+# Ingest candidate JSON produced by a Cursor Cloud Agent.
+# Usage: ./scan/scripts/run_scan.sh path/to/inbox.json
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -17,4 +17,4 @@ if [[ ! -x .venv/bin/python ]]; then
 fi
 .venv/bin/pip install -q -r requirements.txt
 export PYTHONPATH="$ROOT/src"
-exec .venv/bin/python -m takedowns_grokbot.cli --from-json "$JSON"
+exec .venv/bin/python -m takedowns_scan.cli --from-json "$JSON"

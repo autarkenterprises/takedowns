@@ -1,3 +1,3 @@
 {
-  "install": "python3 -m venv grokbot/.venv && grokbot/.venv/bin/pip install -U pip && grokbot/.venv/bin/pip install -r grokbot/requirements.txt"
+  "install": "python3 -m venv scan/.venv && scan/.venv/bin/pip install -U pip && scan/.venv/bin/pip install -r scan/requirements.txt"
 }

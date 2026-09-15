@@ -12,8 +12,8 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
-from takedowns_grokbot.models import CandidateDraft
-from takedowns_grokbot.queue_store import format_instances_entry
+from takedowns_scan.models import CandidateDraft
+from takedowns_scan.queue_store import format_instances_entry
 
 _ENTRY_NUM = re.compile(r"^(\d+)\.\s+", re.MULTILINE)
 _TABLE_NUM = re.compile(r"^\|\s*(\d+)\s*\|", re.MULTILINE)

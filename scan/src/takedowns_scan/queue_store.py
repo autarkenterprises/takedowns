@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from takedowns_grokbot.models import CandidateDraft
+from takedowns_scan.models import CandidateDraft
 
 
 class CandidateQueue:

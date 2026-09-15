@@ -1,12 +1,12 @@
 # Takedowns agent notes
 
 This repository is the published catalog (`README.md`, `instances.txt`) plus
-the ingest pipeline (`grokbot/`).
+the ingest pipeline (`scan/`).
 
 ## Cursor Cloud specific instructions
 
 You **are** the discovery engine. Use Cursor’s native Cloud Agent model and
-tools (web search / browse). Do **not** call xAI, Grok, or `XAI_API_KEY`.
+built-in tools (web search / browse).
 
 When this is a scheduled Cloud Agent / Automation run (or when asked to scan):
 
@@ -16,7 +16,7 @@ When this is a scheduled Cloud Agent / Automation run (or when asked to scan):
    creators/brands for ordinary lawful content (reviews, sport photos, brand
    pages, range demos). Exclude manufacturing tutorials, threats, and illegal
    sales. Prefer recency × audience. Omit weak or uncitable cases.
-3. Write `grokbot/data/inbox.json` as:
+3. Write `scan/data/inbox.json` as:
    ```json
    {
      "candidates": [
@@ -37,7 +37,7 @@ When this is a scheduled Cloud Agent / Automation run (or when asked to scan):
    If nothing meets the bar, write `"candidates": []`. Never invent sources.
 4. Run:
    ```bash
-   ./grokbot/scripts/run_scan.sh grokbot/data/inbox.json
+   ./scan/scripts/run_scan.sh scan/data/inbox.json
    ```
    The script validates, archives citations via Wayback, and appends to the
    catalog. Historical catalog bytes must remain an exact prefix of each file.
@@ -54,7 +54,7 @@ When this is a scheduled Cloud Agent / Automation run (or when asked to scan):
 Tests (optional sanity before commit):
 
 ```bash
-cd grokbot && PYTHONPATH=src .venv/bin/python -m pytest -q
+cd scan && PYTHONPATH=src .venv/bin/python -m pytest -q
 ```
 
 ## Inclusion bar

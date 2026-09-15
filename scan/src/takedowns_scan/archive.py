@@ -12,7 +12,7 @@ import urllib.request
 from typing import Callable
 
 
-UA = {"User-Agent": "takedowns-grokbot/0.1 (research catalog archiver)"}
+UA = {"User-Agent": "takedowns-scan/0.1 (research catalog archiver)"}
 
 
 def _fetch(url: str, timeout: int = 60) -> tuple[int, str, dict]:

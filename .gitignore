@@ -1,0 +1,9 @@
+# Emacs lock/autosave files (may contain secrets).
+.#*
+*~
+\#*\#
+*.txt#
+
+# Local Cursor/API credentials — never commit.
+*api_key*.txt
+content_scan_api_key.txt

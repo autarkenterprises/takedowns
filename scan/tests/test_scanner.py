@@ -1,12 +1,12 @@
 """
-Tests for candidate queue persistence and scanner orchestration (mock Grok).
+Tests for candidate queue persistence and scanner orchestration (fake discovery).
 """
 
 from pathlib import Path
 
-from takedowns_grokbot.models import CandidateDraft, ScanReport
-from takedowns_grokbot.queue_store import CandidateQueue
-from takedowns_grokbot.scanner import run_scan
+from takedowns_scan.models import CandidateDraft, ScanReport
+from takedowns_scan.queue_store import CandidateQueue
+from takedowns_scan.scanner import run_scan
 
 
 class FakeDiscoveryClient:

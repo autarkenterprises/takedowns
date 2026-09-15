@@ -1,4 +1,4 @@
-# Pytest configuration for GrokBot: keep the package importable without install.
+# Pytest configuration for catalog scanner: keep the package importable without install.
 import sys
 from pathlib import Path
 

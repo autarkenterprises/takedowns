@@ -1,6 +1,6 @@
 """Tests for Cloud Agents API payload construction (no network)."""
 
-from takedowns_grokbot.cloud_launch import (
+from takedowns_scan.cloud_launch import (
     REPO_URL,
     agent_dashboard_url,
     build_create_payload,

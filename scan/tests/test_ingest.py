@@ -2,8 +2,8 @@
 
 from pathlib import Path
 
-from takedowns_grokbot.models import CandidateDraft, load_candidates_json
-from takedowns_grokbot.scanner import StaticCandidateSource, run_scan
+from takedowns_scan.models import CandidateDraft, load_candidates_json
+from takedowns_scan.scanner import StaticCandidateSource, run_scan
 
 
 def _fake_archive(urls: list[str]) -> dict[str, str]:

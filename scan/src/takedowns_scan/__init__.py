@@ -1,5 +1,5 @@
 """
-GrokBot: recurring discovery of firearms-creator suppression candidates.
+catalog scanner: recurring discovery of firearms-creator suppression candidates.
 
 Publication into the catalog remains human-gated (see docs/adr/0001).
 """

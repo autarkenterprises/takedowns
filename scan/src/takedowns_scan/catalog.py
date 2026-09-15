@@ -54,7 +54,7 @@ class CatalogIndex:
         return normalize_source_url(url) in self.source_urls
 
     def summary_for_prompt(self, limit: int = 80) -> str:
-        """Compact list of known entities for the Grok system/user prompt."""
+        """Compact list of known entities for the Cloud Agent prompt."""
         names = sorted(self.raw_headings)[:limit]
         return "Known catalog entities (do not re-propose):\n- " + "\n- ".join(names)
 

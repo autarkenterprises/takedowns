@@ -1,8 +1,8 @@
 """
 FastAPI debug UI: ingest Cloud Agent JSON, inspect queue/run logs.
 
-Discovery is not performed here (no xAI/Grok). Production discovery is the
-Cursor Cloud Automation using Cursor's native model.
+Discovery is not performed here. Production discovery is the Cursor Cloud
+Agent using the account's native model.
 """
 
 from __future__ import annotations
@@ -19,18 +19,18 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 from starlette.status import HTTP_303_SEE_OTHER
 
-from takedowns_grokbot.queue_store import CandidateQueue
-from takedowns_grokbot.scanner import StaticCandidateSource, run_scan
+from takedowns_scan.queue_store import CandidateQueue
+from takedowns_scan.scanner import StaticCandidateSource, run_scan
 
 ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(ROOT / ".env")
 
-CATALOG_PATH = Path(os.environ.get("GROKBOT_CATALOG", str(ROOT.parent / "instances.txt")))
-README_PATH = Path(os.environ.get("GROKBOT_README", str(ROOT.parent / "README.md")))
-QUEUE_DIR = Path(os.environ.get("GROKBOT_QUEUE", str(ROOT / "data" / "candidates")))
-RUNS_DIR = Path(os.environ.get("GROKBOT_RUNS", str(ROOT / "data" / "runs")))
+CATALOG_PATH = Path(os.environ.get("SCAN_CATALOG", str(ROOT.parent / "instances.txt")))
+README_PATH = Path(os.environ.get("SCAN_README", str(ROOT.parent / "README.md")))
+QUEUE_DIR = Path(os.environ.get("SCAN_QUEUE", str(ROOT / "data" / "candidates")))
+RUNS_DIR = Path(os.environ.get("SCAN_RUNS", str(ROOT / "data" / "runs")))
 TEMPLATES = Jinja2Templates(directory=str(ROOT / "templates"))
-ADMIN_TOKEN = os.environ.get("GROKBOT_ADMIN_TOKEN", "")
+ADMIN_TOKEN = os.environ.get("SCAN_ADMIN_TOKEN", "")
 
 _last_error: str = ""
 _last_report: str = ""

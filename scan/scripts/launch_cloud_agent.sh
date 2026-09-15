@@ -8,4 +8,4 @@ if [[ ! -x "$ROOT/.venv/bin/python" ]]; then
   "$ROOT/.venv/bin/pip" install -q -r "$ROOT/requirements.txt"
 fi
 export PYTHONPATH="$ROOT/src"
-exec "$ROOT/.venv/bin/python" -m takedowns_grokbot.cloud_launch
+exec "$ROOT/.venv/bin/python" -m takedowns_scan.cloud_launch

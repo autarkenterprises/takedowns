@@ -1,11 +1,11 @@
 """
-Failing-first tests for GrokBot inclusion/exclusion criterion.
+Failing-first tests for catalog scanner inclusion/exclusion criterion.
 
 These encode the catalog bar: ordinary lawful firearms content only,
 with hard exclusions for manufacturing tutorials, threats, and illegal sales.
 """
 
-from takedowns_grokbot.criterion import (
+from takedowns_scan.criterion import (
     EXCLUSION_KEYWORDS,
     InclusionVerdict,
     evaluate_criterion_fit,

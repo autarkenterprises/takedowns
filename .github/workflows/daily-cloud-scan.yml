@@ -24,5 +24,5 @@ jobs:
       - name: Launch Cursor Cloud Agent
         env:
           CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
-          PYTHONPATH: grokbot/src
-        run: python -m takedowns_grokbot.cloud_launch
+          PYTHONPATH: scan/src
+        run: python -m takedowns_scan.cloud_launch
