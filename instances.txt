@@ -399,3 +399,15 @@ Numbers continue from batch 2. Compiled 2026-09-13.
     cut for ordinary gun-media posts.
     Source: https://shootingindustry.com/industry-news/in-the-shadows/
             archive: https://web.archive.org/web/20240421044513/https://shootingindustry.com/industry-news/in-the-shadows/
+
+## Cloud Agent findings (2026-09-15)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+36. Iowa Firearms Coalition
+   Audience: ~1M YouTube channel views; ~400 videos; Iowa 2A advocacy org
+   When: Nov 2025–Jan 2026
+   Platform: YouTube
+   What: YouTube issued unexplained firearms-policy strikes starting November 2025 (including for mentioning NRA in a president's message), then permanently removed the @2A4IA channel overnight on January 14, 2026, wiping a decade of Warrior Wednesday podcast and legislative-advocacy uploads. The channel was reinstated on March 19, 2026 after months of appeals.
+   Sources: https://iowafc.org/2026/01/14/ifcs-youtube-channel-2a4ia-removed-overnight/
+            archive: https://web.archive.org/web/20260915171509/https://iowafc.org/2026/01/14/ifcs-youtube-channel-2a4ia-removed-overnight/
+            https://iowafc.org/2025/11/11/youtube-swings-the-ban-hammer-ifc-didnt-break-the-rules/
+            archive: https://web.archive.org/web/20251231052033/https://iowafc.org/2025/11/11/youtube-swings-the-ban-hammer-ifc-didnt-break-the-rules/

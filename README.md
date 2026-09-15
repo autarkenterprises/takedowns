@@ -76,3 +76,11 @@ Ten further cases meeting the same criterion and significance bar (recency × au
 | 35 | **GUNS Magazine** (Instagram) | Established firearms-industry media title | Reported mid-2020s | Instagram/Meta | Account notified it can “no longer be shown to non-followers” under Recommendations Guidelines despite no Community Standards violation—reach cut for ordinary gun-media posts. [Shooting Industry](https://shootingindustry.com/industry-news/in-the-shadows/) ([archive](https://web.archive.org/web/20240421044513/https://shootingindustry.com/industry-news/in-the-shadows/)) |
 
 Batch 3 compiled 2026-09-13. Audience figures approximate as of cited coverage.
+
+## Cloud Agent findings (2026-09-15)
+
+Validated discoveries appended by the Cursor Cloud Agent (same inclusion bar; prior batches unchanged).
+
+| # | Who | Audience | When | Platform | What happened |
+|---|-----|----------|------|----------|---------------|
+| 36 | **Iowa Firearms Coalition** | ~1M YouTube channel views; ~400 videos; Iowa 2A advocacy org | Nov 2025–Jan 2026 | YouTube | YouTube issued unexplained firearms-policy strikes starting November 2025 (including for mentioning NRA in a president's message), then permanently removed the @2A4IA channel overnight on January 14, 2026, wiping a decade of Warrior Wednesday podcast and legislative-advocacy uploads. The channel was reinstated on March 19, 2026 after months of appeals. [iowafc.org](https://iowafc.org/2026/01/14/ifcs-youtube-channel-2a4ia-removed-overnight/) ([archive](https://web.archive.org/web/20260915171509/https://iowafc.org/2026/01/14/ifcs-youtube-channel-2a4ia-removed-overnight/)) · [iowafc.org](https://iowafc.org/2025/11/11/youtube-swings-the-ban-hammer-ifc-didnt-break-the-rules/) ([archive](https://web.archive.org/web/20251231052033/https://iowafc.org/2025/11/11/youtube-swings-the-ban-hammer-ifc-didnt-break-the-rules/)) |
