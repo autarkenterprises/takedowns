@@ -5,8 +5,7 @@ the ingest pipeline (`scan/`).
 
 ## Cursor Cloud specific instructions
 
-You **are** the discovery engine. Use Cursor’s native Cloud Agent model and
-built-in tools (web search / browse).
+You **are** the discovery engine. Use built-in tools (web search / browse).
 
 When this is a scheduled Cloud Agent / Automation run (or when asked to scan):
 

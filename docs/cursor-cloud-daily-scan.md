@@ -1,6 +1,6 @@
 # Cursor Cloud daily scan
 
-Discovery uses **Cursor’s native Cloud Agent** (account default model).
+Discovery uses a **Cursor Cloud Agent** running **Grok 4.6 High Fast**.
 Python only **ingests** the agent’s JSON.
 
 ## Why not cursor.com/automations from CLI

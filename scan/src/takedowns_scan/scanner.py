@@ -1,7 +1,7 @@
 """
 Orchestrate one ingest cycle: proposed drafts → validate → archive → append.
 
-Discovery is the Cursor Cloud Agent (account default model). This module
+Discovery is the Cursor Cloud Agent (Grok 4.6 High Fast). This module
 only ingests already-proposed JSON.
 """
 

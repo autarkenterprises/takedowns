@@ -2,7 +2,7 @@
 
 Documentation of platform bans, deplatformings, and demonetizations affecting lawful firearms-related content creators and brands.
 
-Automated follow-on discovery: Cursor Cloud Agent plus [scan/](./scan/) ingest (append-only updates to this README and `instances.txt`; see [docs/adr/0001-recurring-catalog-scanner.md](./docs/adr/0001-recurring-catalog-scanner.md)).
+Automated follow-on discovery: Cursor Cloud Agent (Grok 4.6 High Fast) plus [scan/](./scan/) ingest (append-only updates to this README and `instances.txt`; see [docs/adr/0001-recurring-catalog-scanner.md](./docs/adr/0001-recurring-catalog-scanner.md)).
 
 ## Firearms creators punished for ordinary gun content (2024–2026)
 

@@ -1,5 +1,5 @@
 """
-Launch a Cursor Cloud Agent for one catalog scan (native Cursor model).
+Launch a Cursor Cloud Agent for one catalog scan.
 
 Cursor Automations (cursor.com/automations) have no public create API — probed
 GET/POST /v1/automations → 404. The supported CLI path is Cloud Agents API
@@ -19,6 +19,14 @@ from typing import Any, Mapping
 API = "https://api.cursor.com/v1/agents"
 REPO_URL = "https://github.com/autarkenterprises/takedowns"
 DEFAULT_REF = "master"
+# GET /v1/models: id grok-4.6 + effort=high + fast=true is "Cursor Grok 4.6 High Fast".
+SCAN_MODEL = {
+    "id": "grok-4.6",
+    "params": [
+        {"id": "effort", "value": "high"},
+        {"id": "fast", "value": "true"},
+    ],
+}
 # Public GitHub org id for autarkenterprises (install target, not a secret).
 GITHUB_ORG_ID = 17556938
 GITHUB_APP_INSTALL = (
@@ -65,10 +73,11 @@ def resolve_api_key(
 
 
 def build_create_payload(prompt: str, starting_ref: str = DEFAULT_REF) -> dict[str, Any]:
-    """Request body for POST /v1/agents. Omit model so Cursor uses the account default."""
+    """Request body for POST /v1/agents. Pin Grok 4.6 High Fast (not the account default)."""
     return {
         "name": "takedowns-daily-scan",
         "prompt": {"text": prompt},
+        "model": SCAN_MODEL,
         "repos": [{"url": REPO_URL, "startingRef": starting_ref}],
         "autoCreatePR": False,
         # Catalog writes land on master (AGENTS.md); do not fork a cursor/* branch.

@@ -2,7 +2,7 @@
 FastAPI debug UI: ingest Cloud Agent JSON, inspect queue/run logs.
 
 Discovery is not performed here. Production discovery is the Cursor Cloud
-Agent using the account's native model.
+Agent on Grok 4.6 High Fast.
 """
 
 from __future__ import annotations

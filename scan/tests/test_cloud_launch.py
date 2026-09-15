@@ -13,9 +13,15 @@ from takedowns_scan.cloud_launch import (
 )
 
 
-def test_payload_uses_native_default_model_and_no_pr():
+def test_payload_uses_grok_46_high_fast_and_no_pr():
     payload = build_create_payload("scan now", starting_ref="master")
-    assert "model" not in payload  # Cursor account/automation default
+    assert payload["model"] == {
+        "id": "grok-4.6",
+        "params": [
+            {"id": "effort", "value": "high"},
+            {"id": "fast", "value": "true"},
+        ],
+    }
     assert payload["autoCreatePR"] is False
     assert payload["workOnCurrentBranch"] is True
     assert payload["repos"] == [{"url": REPO_URL, "startingRef": "master"}]

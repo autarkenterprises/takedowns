@@ -1,6 +1,6 @@
 You are the daily Takedowns catalog scan on Cursor Cloud.
 
-Use Cursor’s native model and built-in web tools.
+Use built-in web tools.
 
 1. Read AGENTS.md, README.md, and instances.txt.
 2. Search for NEW platform punishments of firearms creators/brands for ordinary

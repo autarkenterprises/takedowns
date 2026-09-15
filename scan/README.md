@@ -1,7 +1,7 @@
 # Catalog ingest (`scan/`)
 
 Python gates for the Takedowns catalog. **Discovery** is a Cursor Cloud Agent
-using Cursor’s native model. This package only **ingests** that
+on Grok 4.6 High Fast. This package only **ingests** that
 agent’s JSON: validate, Wayback-archive, append-only write to:
 
 - `../README.md` — markdown table rows
