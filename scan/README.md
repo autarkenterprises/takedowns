@@ -20,14 +20,18 @@ Prior catalog content is preserved as an **exact prefix**. Design:
 ## Production (Cursor Cloud via CLI)
 
 Cursor Automations cannot be created from the API (route 404). Launch a Cloud
-Agent with a User API Key:
+Agent with a User API Key (export `CURSOR_API_KEY`, or put it in gitignored
+`content_scan_api_key.txt` at the repo root):
 
 ```bash
-export CURSOR_API_KEY='…'   # from https://cursor.com/dashboard/api
 ./scan/scripts/launch_cloud_agent.sh
 ```
 
-Daily trigger: GitHub Actions `.github/workflows/daily-cloud-scan.yml` (`0 12 * * *` UTC) calling the same launcher. Details: [docs/cursor-cloud-daily-scan.md](../docs/cursor-cloud-daily-scan.md).
+The Cursor GitHub App must be installed on `autarkenterprises` with access to
+this repo: https://github.com/apps/cursor/installations/new?target_id=17556938
+(or Dashboard → Integrations → GitHub). Daily trigger: GitHub Actions
+`.github/workflows/daily-cloud-scan.yml` (`0 12 * * *` UTC). Details:
+[docs/cursor-cloud-daily-scan.md](../docs/cursor-cloud-daily-scan.md).
 
 ## Local ingest
 

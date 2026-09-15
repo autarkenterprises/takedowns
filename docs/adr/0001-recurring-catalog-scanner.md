@@ -52,7 +52,7 @@ Split the pipeline:
 
 - Catalog files are live outputs; git history is the undo path.
 - Credibility still depends on validator + citation/archive gates.
-- Operators launch with `./scan/scripts/launch_cloud_agent.sh` (`CURSOR_API_KEY` from cursor.com/dashboard/api) and store the same key as a GitHub Actions secret for the daily workflow.
+- Operators launch with `./scan/scripts/launch_cloud_agent.sh` (`CURSOR_API_KEY` or gitignored `content_scan_api_key.txt`). Store the same key as a GitHub Actions secret. The Cursor GitHub App must be installed on `autarkenterprises` with access to this repo.
 - Package identity is `takedowns_scan` under `scan/` (not a third-party bot brand).
 
 ## Outcome
