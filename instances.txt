@@ -463,3 +463,13 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: Facebook indefinitely suspended and then permanently removed the shop’s page after flagging a story post about an anniversary open-house event. The FFL said it does not sell firearms through Facebook (in-person 4473/NICS only) and that automated moderation also retroactively flagged older in-store inventory posts that had been allowed when published.
    Sources: https://rivervalleyarms.com/news/facebook-suspends-our-page/
             archive: https://web.archive.org/web/20260918152904/https://rivervalleyarms.com/news/facebook-suspends-our-page/
+
+## Cloud Agent findings (2026-09-19)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+43. Courtney Palmer-Jones
+   Audience: British shooting champion; aspiring Olympian (Crawley, West Sussex)
+   When: Aug 2024
+   Platform: Instagram/Meta
+   What: Instagram flagged sport posts that showed or mentioned rifles and restricted her account so non-followers could not find it; she said appeals had only limited success. British Shooting told the BBC it had seen similar blocking on its own channels.
+   Sources: https://www.bbc.com/news/articles/cj62er34k4eo
+            archive: https://web.archive.org/web/20240808060831/https://www.bbc.com/news/articles/cj62er34k4eo
