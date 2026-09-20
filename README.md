@@ -112,3 +112,12 @@ Validated discoveries appended by the Cursor Cloud Agent (same inclusion bar; pr
 | # | Who | Audience | When | Platform | What happened |
 |---|-----|----------|------|----------|---------------|
 | 43 | **Courtney Palmer-Jones** | British shooting champion; aspiring Olympian (Crawley, West Sussex) | Aug 2024 | Instagram/Meta | Instagram flagged sport posts that showed or mentioned rifles and restricted her account so non-followers could not find it; she said appeals had only limited success. British Shooting told the BBC it had seen similar blocking on its own channels. [bbc.com](https://www.bbc.com/news/articles/cj62er34k4eo) ([archive](https://web.archive.org/web/20240808060831/https://www.bbc.com/news/articles/cj62er34k4eo)) |
+
+## Cloud Agent findings (2026-09-20)
+
+Validated discoveries appended by the Cursor Cloud Agent (same inclusion bar; prior batches unchanged).
+
+| # | Who | Audience | When | Platform | What happened |
+|---|-----|----------|------|----------|---------------|
+| 44 | **British Shooting Show** | UK's largest shooting-sports trade show / industry destination | Apr 2024 | Facebook/Meta | The official Facebook page for the British Shooting Show was deleted amid an automated enforcement wave against gun- and shooting-related pages and groups. [racknload.com](https://racknload.com/the-british-shooting-shows-facebook-deleted/) ([archive](https://web.archive.org/web/20260423003427/https://racknload.com/the-british-shooting-shows-facebook-deleted/)) |
+| 45 | **The Stalking Show** | UK's largest stalking/deer-management trade show (~250 trade stands) | Jan 2024 | Instagram/Meta | Instagram page disabled and Facebook page put at risk of permanent closure after algorithms flagged ordinary posts containing words such as gun, rifle, and ammunition. Organiser Deanne Freer said appeals offered no relevant options and that a computer decides fate with no check that they are a legitimate lawful business. [shootinguk.co.uk](https://www.shootinguk.co.uk/news/stalking-show-falls-foul-of-faceback-algorithms/) ([archive](https://web.archive.org/web/20250524152406/https://www.shootinguk.co.uk/news/stalking-show-falls-foul-of-faceback-algorithms/)) |

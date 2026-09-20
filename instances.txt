@@ -473,3 +473,20 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: Instagram flagged sport posts that showed or mentioned rifles and restricted her account so non-followers could not find it; she said appeals had only limited success. British Shooting told the BBC it had seen similar blocking on its own channels.
    Sources: https://www.bbc.com/news/articles/cj62er34k4eo
             archive: https://web.archive.org/web/20240808060831/https://www.bbc.com/news/articles/cj62er34k4eo
+
+## Cloud Agent findings (2026-09-20)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+44. British Shooting Show
+   Audience: UK's largest shooting-sports trade show / industry destination
+   When: Apr 2024
+   Platform: Facebook/Meta
+   What: The official Facebook page for the British Shooting Show was deleted amid an automated enforcement wave against gun- and shooting-related pages and groups.
+   Sources: https://racknload.com/the-british-shooting-shows-facebook-deleted/
+            archive: https://web.archive.org/web/20260423003427/https://racknload.com/the-british-shooting-shows-facebook-deleted/
+45. The Stalking Show
+   Audience: UK's largest stalking/deer-management trade show (~250 trade stands)
+   When: Jan 2024
+   Platform: Instagram/Meta
+   What: Instagram page disabled and Facebook page put at risk of permanent closure after algorithms flagged ordinary posts containing words such as gun, rifle, and ammunition. Organiser Deanne Freer said appeals offered no relevant options and that a computer decides fate with no check that they are a legitimate lawful business.
+   Sources: https://www.shootinguk.co.uk/news/stalking-show-falls-foul-of-faceback-algorithms/
+            archive: https://web.archive.org/web/20250524152406/https://www.shootinguk.co.uk/news/stalking-show-falls-foul-of-faceback-algorithms/
