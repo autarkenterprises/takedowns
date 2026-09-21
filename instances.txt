@@ -490,3 +490,31 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: Instagram page disabled and Facebook page put at risk of permanent closure after algorithms flagged ordinary posts containing words such as gun, rifle, and ammunition. Organiser Deanne Freer said appeals offered no relevant options and that a computer decides fate with no check that they are a legitimate lawful business.
    Sources: https://www.shootinguk.co.uk/news/stalking-show-falls-foul-of-faceback-algorithms/
             archive: https://web.archive.org/web/20250524152406/https://www.shootinguk.co.uk/news/stalking-show-falls-foul-of-faceback-algorithms/
+
+## Cloud Agent findings (2026-09-21)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+46. International Shooting Sport Federation (ISSF)
+   Audience: ~600K Facebook followers; Olympic shooting governing body
+   When: Nov 2020
+   Platform: Facebook/Meta
+   What: Facebook deleted the official ISSF page without warning or explanation. ISSF said the 2010 page had about 600,000 followers, including Olympic medalists, and carried Olympic shooting-sport updates and competition livestreams rather than sales or aggression; the federation launched a #unblock_ISSF_facebook campaign and sent legal letters asking Facebook to restore it.
+   Sources: https://www.issf-sports.org/news/3500
+            archive: https://web.archive.org/web/20260214173830/https://issf-sports.org/news/3500
+            https://sportstar.thehindu.com/shooting/facebook-deletes-issf-page-shooting-body-calls-for-help-from-fraternity/article33040369.ece
+            archive: https://web.archive.org/web/20260921172500/https://sportstar.thehindu.com/shooting/facebook-deletes-issf-page-shooting-body-calls-for-help-from-fraternity/article33040369.ece
+47. WeShoot
+   Audience: Lakewood, New Jersey indoor range and licensed FFL brand pages
+   When: Aug 2023
+   Platform: Facebook/Meta
+   What: Facebook removed posts and escalated restrictions until the licensed range/FFL page could not post images for a month, despite submitted FFL paperwork, store photos on every post, and Meta's brick-and-mortar exception. Owners said they never sold firearms on the platform and shifted updates to Instagram and X.
+   Sources: https://bearingarms.com/john-petrolino/2023/08/16/new-jersey-gun-store-and-range-faces-off-with-facebook-over-social-media-censoring-n73741
+            archive: https://web.archive.org/web/20260921172614/https://bearingarms.com/john-petrolino/2023/08/16/new-jersey-gun-store-and-range-faces-off-with-facebook-over-social-media-censoring-n73741
+48. The TN Pickers (Chris Gomez)
+   Audience: ~2.2K YouTube subs and ~3.3K Facebook followers (2024); firearms-review Instagram
+   When: Jul 2025
+   Platform: Instagram/Meta
+   What: Instagram search-suppressed the firearms-review account and notified Gomez it could not be shown to non-followers under Recommendations Guidelines, hiding it from Explore, Search, Suggested Users, Reels, and feed recommendations over two allegedly violative gun posts. Partial-name search returned no results unless the exact username was entered.
+   Sources: https://mrcfreespeechamerica.org/case/tn-pickers
+            archive: https://web.archive.org/web/20260411015856/https://mrcfreespeechamerica.org/case/tn-pickers
+            https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2025/08/04/worst-censorship-july-big-tech-censors-libs-tiktok
+            archive: https://web.archive.org/web/20250804211621/https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2025/08/04/worst-censorship-july-big-tech-censors-libs-tiktok
