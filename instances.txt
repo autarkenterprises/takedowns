@@ -518,3 +518,13 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
             archive: https://web.archive.org/web/20260411015856/https://mrcfreespeechamerica.org/case/tn-pickers
             https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2025/08/04/worst-censorship-july-big-tech-censors-libs-tiktok
             archive: https://web.archive.org/web/20250804211621/https://mrcfreespeechamerica.org/blogs/free-speech/catherine-salgado/2025/08/04/worst-censorship-july-big-tech-censors-libs-tiktok
+
+## Cloud Agent findings (2026-09-22)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+49. Smokin Gun Worx
+   Audience: Indoor range and gun shop in Forreston, Illinois (NSSF 5-star range)
+   When: Jun 2024
+   Platform: Facebook/Meta
+   What: Facebook restricted the licensed range/shop profile for 3,644 days, citing unspecified Community Standards violations. The business posted that it had been cancelled from Facebook and called the action censorship, with no manufacturing tutorials, threats, or illegal sales identified.
+   Sources: https://mrcfreespeechamerica.org/case/smokin-gun-worx
+            archive: https://web.archive.org/web/20240623072727/https://mrcfreespeechamerica.org/case/smokin-gun-worx
