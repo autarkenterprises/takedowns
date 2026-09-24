@@ -547,3 +547,13 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: YouTube removed three ordinary gun-review videos in the weeks before Oct 5, 2025, citing content that facilitates the sale of regulated goods. SNW said the videos were innocuous reviews with no sales function; each appeal was rejected within minutes. No manufacturing tutorials, threats, or illegal sales.
    Sources: https://www.shootingnewsweekly.com/media/youtube-continues-throttling-shooting-news-weeklys-videos/
             archive: https://web.archive.org/web/20251006222756/https://www.shootingnewsweekly.com/media/youtube-continues-throttling-shooting-news-weeklys-videos/
+
+## Cloud Agent findings (2026-09-24)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+52. Primary & Secondary (Matt Landfair)
+   Audience: Long-running professional firearms/tactics video and podcast network; ~14.5K YouTube subs (archived figure)
+   When: Nov 27, 2025
+   Platform: YouTube
+   What: YouTube permanently removed the Primary & Secondary channel. Founder Matt Landfair posted that his appeal was rejected within six minutes of the removal; the video library was moved to Rumble. The channel covered professional-grade firearms, gear, tactics, and reviews. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://primaryandsecondary.com/forum/index.php?threads/the-p-s-youtube-channel-has-been-removed.10905/
+            archive: https://web.archive.org/web/20260924160849/https://primaryandsecondary.com/forum/index.php?threads/the-p-s-youtube-channel-has-been-removed.10905/
