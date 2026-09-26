@@ -557,3 +557,24 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: YouTube permanently removed the Primary & Secondary channel. Founder Matt Landfair posted that his appeal was rejected within six minutes of the removal; the video library was moved to Rumble. The channel covered professional-grade firearms, gear, tactics, and reviews. No manufacturing tutorials, threats, or illegal sales.
    Sources: https://primaryandsecondary.com/forum/index.php?threads/the-p-s-youtube-channel-has-been-removed.10905/
             archive: https://web.archive.org/web/20260924160849/https://primaryandsecondary.com/forum/index.php?threads/the-p-s-youtube-channel-has-been-removed.10905/
+
+## Cloud Agent findings (2026-09-26)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+53. We Like Shooting (Shawn Herrin)
+   Audience: ~26.3K YouTube subs; 1.5K videos; 10+ year gun-review and podcast channel
+   When: Sep 1–3, 2026
+   Platform: YouTube
+   What: YouTube deleted the 10+ year We Like Shooting channel after issuing violations on years-old gun-podcast and review videos, including videos the hosts had already deleted. The channel was restored on September 3, 2026 and all three strikes were wiped after community pressure. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://welikeshooting.com/show/wls-679/
+            archive: https://web.archive.org/web/20260926151923/https://welikeshooting.com/show/wls-679/
+            https://pew.report/topics/2a/they-wiped-all-three-strikes-that-is-a-confession/
+            archive: https://web.archive.org/web/20260926152029/https://pew.report/topics/2a/they-wiped-all-three-strikes-that-is-a-confession/
+54. Dianna Muller
+   Audience: Professional 3-gun competitor; DC Project founder; ~350K monthly Instagram reach before restriction
+   When: Aug 2023
+   Platform: Instagram/Meta
+   What: Instagram flagged ordinary sport posts—a photo of competition rifles and a short video of Muller running then shooting a rifle—and cut her monthly reach from about 350,000 accounts to about 19,000. Account status still said her posting privileges were not at risk. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://bearingarms.com/john-petrolino/2023/08/09/instagram-second-amendment-community-n73428
+            archive: https://web.archive.org/web/20230810010802/https://bearingarms.com/john-petrolino/2023/08/09/instagram-second-amendment-community-n73428
+            https://bearingarms.com/camedwards/2023/08/10/cracking-the-social-media-2a-censorship-code-n73539
+            archive: https://web.archive.org/web/20260926152218/https://bearingarms.com/camedwards/2023/08/10/cracking-the-social-media-2a-censorship-code-n73539
