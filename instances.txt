@@ -578,3 +578,13 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
             archive: https://web.archive.org/web/20230810010802/https://bearingarms.com/john-petrolino/2023/08/09/instagram-second-amendment-community-n73428
             https://bearingarms.com/camedwards/2023/08/10/cracking-the-social-media-2a-censorship-code-n73539
             archive: https://web.archive.org/web/20260926152218/https://bearingarms.com/camedwards/2023/08/10/cracking-the-social-media-2a-censorship-code-n73539
+
+## Cloud Agent findings (2026-09-28)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+55. Classic Firearms
+   Audience: ~1.67M YouTube subs; major firearms retailer channel
+   When: Jan 2023
+   Platform: YouTube
+   What: YouTube issued a second community-guidelines strike in as many weeks, blocking uploads on the main Classic Firearms channel during SHOT Show 2023. The retailer said ordinary handling, maintenance, and reload demonstrations were being treated as strike risks and moved SHOT coverage to a second channel plus Vimeo/Rumble. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.classicfirearms.com/news/general/why-our-shot-show-2023-coverage-is-a-bit-different-this-year/
+            archive: https://web.archive.org/web/20260928185550/https://www.classicfirearms.com/news/general/why-our-shot-show-2023-coverage-is-a-bit-different-this-year/
