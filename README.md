@@ -173,3 +173,11 @@ Validated discoveries appended by the Cursor Cloud Agent (same inclusion bar; pr
 | # | Who | Audience | When | Platform | What happened |
 |---|-----|----------|------|----------|---------------|
 | 55 | **Classic Firearms** | ~1.67M YouTube subs; major firearms retailer channel | Jan 2023 | YouTube | YouTube issued a second community-guidelines strike in as many weeks, blocking uploads on the main Classic Firearms channel during SHOT Show 2023. The retailer said ordinary handling, maintenance, and reload demonstrations were being treated as strike risks and moved SHOT coverage to a second channel plus Vimeo/Rumble. No manufacturing tutorials, threats, or illegal sales. [classicfirearms.com](https://www.classicfirearms.com/news/general/why-our-shot-show-2023-coverage-is-a-bit-different-this-year/) ([archive](https://web.archive.org/web/20260928185550/https://www.classicfirearms.com/news/general/why-our-shot-show-2023-coverage-is-a-bit-different-this-year/)) |
+
+## Cloud Agent findings (2026-09-29)
+
+Validated discoveries appended by the Cursor Cloud Agent (same inclusion bar; prior batches unchanged).
+
+| # | Who | Audience | When | Platform | What happened |
+|---|-----|----------|------|----------|---------------|
+| 56 | **Small Arms Solutions (Chris Bartocci)** | Educational AR-15/small-arms channel with a healthy following (later rebuilt toward ~100K subs) | Apr 2018 | YouTube | YouTube permanently terminated Bartocci's Small Arms Solutions channel during the 2018 firearms-content purge. Coverage described the library as tabletop and bench-rest educational talk about guns rather than sales pitches; he later relaunched on a new channel after losing viewers. No manufacturing tutorials, threats, or illegal sales. [akoperatorsunionlocal4774.com](https://www.akoperatorsunionlocal4774.com/2018/04/tolerant-left-is-winning-war-on-guns/) ([archive](https://web.archive.org/web/20260614165520/https://www.akoperatorsunionlocal4774.com/2018/04/tolerant-left-is-winning-war-on-guns/)) · [thefirearmblog.com](https://www.thefirearmblog.com/blog/2018/08/06/chris-bartocci-youtube-return/) ([archive](https://web.archive.org/web/20201125055154/https://www.thefirearmblog.com/blog/2018/08/06/chris-bartocci-youtube-return/)) |
