@@ -600,3 +600,22 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
             archive: https://web.archive.org/web/20260614165520/https://www.akoperatorsunionlocal4774.com/2018/04/tolerant-left-is-winning-war-on-guns/
             https://www.thefirearmblog.com/blog/2018/08/06/chris-bartocci-youtube-return/
             archive: https://web.archive.org/web/20201125055154/https://www.thefirearmblog.com/blog/2018/08/06/chris-bartocci-youtube-return/
+
+## Cloud Agent findings (2026-09-30)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+57. Jeremy S. (The Truth About Guns)
+   Audience: ~30K YouTube subs (at time); TTAG gun-review channel with 423 videos
+   When: Jun 2018
+   Platform: YouTube
+   What: YouTube issued a Community Guidelines strike the day the channel passed about 30,000 subscribers, removing a commercial-silencer comparison review (CMMG DefCan 3Ti, Q Half Nelson, Dead Air Sandman-Ti) and an FN 15 Tactical II California-compliant rifle review. YouTube did not specify which firearms-policy clause was broken; the CA-compliant rifle video showed none of the listed banned accessories. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.thetruthaboutguns.com/youtube-issues-jeremys-channel-a-community-guidelines-strike/
+            archive: https://web.archive.org/web/20200218062841/https://www.thetruthaboutguns.com/youtube-issues-jeremys-channel-a-community-guidelines-strike/
+            https://www.thefirearmblog.com/blog/2018/06/13/ttag-youtube-strike/
+            archive: https://web.archive.org/web/20180616154512/http://www.thefirearmblog.com:80/blog/2018/06/13/ttag-youtube-strike
+58. Viking Arms
+   Audience: Major UK firearms distributor and registered firearms dealer brand
+   When: Aug 2024 (reported)
+   Platform: Facebook/Instagram (Meta)
+   What: UK distributor Viking Arms reported that Facebook and Instagram were removing ordinary lawful firearms-business posts even though the company is a registered dealer and the posts met Meta's written brick-and-mortar rules. Appeals produced no human response or an automated uphold. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.fieldsportschannel.tv/socialsgunban/
+            archive: https://web.archive.org/web/20240917125140/https://www.fieldsportschannel.tv/socialsgunban/
