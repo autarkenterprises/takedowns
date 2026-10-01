@@ -619,3 +619,24 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: UK distributor Viking Arms reported that Facebook and Instagram were removing ordinary lawful firearms-business posts even though the company is a registered dealer and the posts met Meta's written brick-and-mortar rules. Appeals produced no human response or an automated uphold. No manufacturing tutorials, threats, or illegal sales.
    Sources: https://www.fieldsportschannel.tv/socialsgunban/
             archive: https://web.archive.org/web/20240917125140/https://www.fieldsportschannel.tv/socialsgunban/
+
+## Cloud Agent findings (2026-10-01)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+59. GunStuff TV (Christopher Swainhart)
+   Audience: Shooting-sports TV/livestream show; 700 Facebook live streams and 140 Thursday shows before the ban
+   When: Jul 2022 (YouTube live banned ~2021)
+   Platform: Facebook/Meta
+   What: Facebook banned GunStuff LIVE after 700 livestreams, first hiding the Thursday show from feeds then warning that continued streaming would delete the entire account. Swainhart said the appeal button was missing, so there was no way to contest it. YouTube had already axed the same live show about a year earlier, citing live firearm handling as a security risk. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://bearingarms.com/john-petrolino/2022/08/01/gunstuff-tv-banned-from-doing-facebook-live-videos-n61002
+            archive: https://web.archive.org/web/20261001174756/https://bearingarms.com/john-petrolino/2022/08/01/gunstuff-tv-banned-from-doing-facebook-live-videos-n61002
+60. TFB TV (The Firearm Blog)
+   Audience: ~300K YouTube subs (at time)
+   When: Apr 2017 (continued through 2019)
+   Platform: YouTube
+   What: YouTube Restricted Mode and advertiser-friendly filters stripped ads from TFB TV's ordinary gun-review and industry-news videos in April 2017, cutting AdSense about 80% per subscriber after 2016. The Trace independently confirmed the ~300K-subscriber channel lost ad eligibility. In May 2019 YouTube still refused to remonetize vanilla NRA Annual Meeting interview footage as prohibited weapons-related content. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.thetrace.org/2017/04/gun-youtube-restricted-mode-advertising/
+            archive: https://web.archive.org/web/20170715184112/https://www.thetrace.org/2017/04/gun-youtube-restricted-mode-advertising/
+            https://www.thefirearmblog.com/blog/2017/04/06/breaking-youtube-gun-channels-danger-disappearing-forever/
+            archive: https://web.archive.org/web/20170407043439/http://www.thefirearmblog.com/blog/2017/04/06/breaking-youtube-gun-channels-danger-disappearing-forever/
+            https://www.thefirearmblog.com/blog/2019/05/15/youtube/
+            archive: https://web.archive.org/web/20190827211745/https://www.thefirearmblog.com/blog/2019/05/15/youtube/
