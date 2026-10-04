@@ -640,3 +640,22 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
             archive: https://web.archive.org/web/20170407043439/http://www.thefirearmblog.com/blog/2017/04/06/breaking-youtube-gun-channels-danger-disappearing-forever/
             https://www.thefirearmblog.com/blog/2019/05/15/youtube/
             archive: https://web.archive.org/web/20190827211745/https://www.thefirearmblog.com/blog/2019/05/15/youtube/
+
+## Cloud Agent findings (2026-10-04)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+61. Pyramyd Air
+   Audience: ~59K YouTube subs and ~23M views (at time); major U.S. airgun retailer channel
+   When: Feb 2018
+   Platform: YouTube
+   What: YouTube deleted the long-running Pyramyd Air channel during a February 2018 purge of airgun review and retailer channels, citing Community Guidelines after years of ordinary product videos. Fieldsports Channel later reported the channel among those reinstated after the wave. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://hardairmagazine.com/news/disappearing-airgun-youtube-channels-ted-bier-speaks/
+            archive: https://web.archive.org/web/20221209161753/https://hardairmagazine.com/news/disappearing-airgun-youtube-channels-ted-bier-speaks/
+            https://www.fieldsportschannel.tv/youtube-lashes-out-at-airgun-channels/
+            archive: https://web.archive.org/web/20191210180744/https://www.fieldsportschannel.tv/youtube-lashes-out-at-airgun-channels/
+62. Vermin Control Scotland (Stuart Blair)
+   Audience: ~6.5K YouTube subs over two years before deletion
+   When: Apr 2023
+   Platform: YouTube
+   What: YouTube permanently deleted the Vermin & Pest Control Scotland channel after a strike on a rat-shooting video, wiping the subscriber base. Blair said the library was legal UK pest-control education with air rifles, night vision, and thermal gear, including why the work is done, and that monetized videos had previously been manually approved. Appeals failed and he restarted as @VerminControlScotland. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.fieldsportschannel.tv/vermincontrolscotland/
+            archive: https://web.archive.org/web/20230419152549/https://www.fieldsportschannel.tv/vermincontrolscotland/
