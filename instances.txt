@@ -687,3 +687,31 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
             archive: https://web.archive.org/web/20260510022308/https://firearmsradio.net/amc-80/
             https://americancrossfire.buzzsprout.com/2365574/episodes/18764892-80-youtube-deleted-our-channel
             archive: https://web.archive.org/web/20261024150049/https://americancrossfire.buzzsprout.com/2365574/episodes/18764892-80-youtube-deleted-our-channel
+
+## Cloud Agent findings (2026-10-25)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+66. Tactical Shit
+   Audience: 2A tactical-gear brand; Instagram historically ~217K–250K followers (2016) and later ~380K; Facebook page previously ~480K then 900K+ before earlier disables
+   When: Sep 18, 2026 (prior Meta deletions 2016, 2019, 2020)
+   Platform: Instagram/Meta
+   What: Instagram deleted the Tactical Shit page on September 18, 2026 with no warning, no named post, and no appeal path. The company said it posts ordinary 2A and tactical-gear content and does not sell firearms on Instagram. Earlier Meta actions unpublished the Facebook page (~480K fans) and deleted Instagram (~250K) in 2016, then later labeled the brand terrorist content and disabled admin accounts. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://tacticalshit.com/tacticalshit-instagram-page-got-zuccd-again/
+            archive: https://web.archive.org/web/20261025151211/https://tacticalshit.com/tacticalshit-instagram-page-got-zuccd-again/
+            https://www.foxnews.com/politics/facebook-instagram-delete-accounts-for-gun-parts-dealer-without-explanation
+            archive: https://web.archive.org/web/20190623184223/https://www.foxnews.com/politics/facebook-instagram-delete-accounts-for-gun-parts-dealer-without-explanation
+67. Replica Airguns
+   Audience: ~350K YouTube subscribers; 1,000+ videos; ~500M views at termination
+   When: Jul 22, 2021 (rebuilt on a new channel Mar 2026)
+   Platform: YouTube
+   What: YouTube permanently terminated the 15-year Replica Airguns review channel after a single unexplained counterfeit-products claim. The channel had more than 1,000 tabletop and field-test reviews of licensed airguns and replicas from Umarex, Crosman, ASG, SIG Sauer, and others. The owners said they do not sell counterfeit goods, were never told which video or product triggered the action, and that the appeal was denied quickly. They later said they were caught up in a period when gun-related channels faced heavy restrictions, moved remaining video to Vimeo/Rumble, and began rebuilding on YouTube in 2026 as @RAReturns. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.replicaairguns.com/posts/2021/7/22/replica-airguns-youtube-channel-has-been-terminated-at-this-time
+            archive: https://web.archive.org/web/20210722162104/https://www.replicaairguns.com/posts/2021/7/22/replica-airguns-youtube-channel-has-been-terminated-at-this-time
+            https://www.replicaairguns.com/posts/2026/3/5/replica-airguns-back-on-youtube
+            archive: https://web.archive.org/web/20261025151230/https://www.replicaairguns.com/posts/2026/3/5/replica-airguns-back-on-youtube
+68. Airguns of Arizona
+   Audience: Major U.S. airgun retailer channel (later rebuilt past 77K YouTube subscribers)
+   When: Feb 2018
+   Platform: YouTube
+   What: YouTube terminated the Airguns of Arizona channel without the usual three-strikes warning during the February 2018 airgun-channel purge after Parkland. The Outline reported the account among those later randomly reinstated on February 28, and YouTube told Bloomberg that newer moderators had misapplied policy. The library was ordinary airgun product and hunting videos, not manufacturing tutorials, threats, or illegal sales.
+   Sources: https://theoutline.com/post/3570/youtube-has-lost-control-of-its-new-moderators
+            archive: https://web.archive.org/web/20180304061009/https://theoutline.com/post/3570/youtube-has-lost-control-of-its-new-moderators
