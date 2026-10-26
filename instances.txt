@@ -715,3 +715,20 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: YouTube terminated the Airguns of Arizona channel without the usual three-strikes warning during the February 2018 airgun-channel purge after Parkland. The Outline reported the account among those later randomly reinstated on February 28, and YouTube told Bloomberg that newer moderators had misapplied policy. The library was ordinary airgun product and hunting videos, not manufacturing tutorials, threats, or illegal sales.
    Sources: https://theoutline.com/post/3570/youtube-has-lost-control-of-its-new-moderators
             archive: https://web.archive.org/web/20180304061009/https://theoutline.com/post/3570/youtube-has-lost-control-of-its-new-moderators
+
+## Cloud Agent findings (2026-10-26)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+69. Airgun Gear Show (Giles Barry)
+   Audience: ~85K YouTube subs; 75M views; fourth-largest airgun consumer channel (at time)
+   When: Feb 2018
+   Platform: YouTube
+   What: YouTube terminated the Bristol-based Airgun Gear Show, then one of the world's top airgun consumer channels, during the February 2018 airgun purge after Parkland. Coverage described it as a fun airgun-kit channel; Fieldsports Channel presenter Charlie Jacoby said taking it down made as little sense as banning carp fishing or tennis. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.ammoland.com/2018/02/youtube-lashes-airgun-channels/
+            archive: https://web.archive.org/web/20180226220823/https://www.ammoland.com/2018/02/youtube-lashes-airgun-channels/
+70. Daystate
+   Audience: Major UK airgun manufacturer brand channel
+   When: Feb 2018
+   Platform: YouTube
+   What: YouTube took down Daystate's official channel for several days during the February 2018 airgun purge. Sales manager Terence Logan said the strike hit a technology video explaining the Harper slingshot system and called it completely innocuous. The channel was restored around 26 February 2018; Daystate then made videos private while it assessed remaining YouTube risk. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://guntradenews.com/features-news/airmageddon-averted/
+            archive: https://web.archive.org/web/20211201182528/https://www.guntradenews.com/features-news/airmageddon-averted/
