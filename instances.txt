@@ -732,3 +732,22 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: YouTube took down Daystate's official channel for several days during the February 2018 airgun purge. Sales manager Terence Logan said the strike hit a technology video explaining the Harper slingshot system and called it completely innocuous. The channel was restored around 26 February 2018; Daystate then made videos private while it assessed remaining YouTube risk. No manufacturing tutorials, threats, or illegal sales.
    Sources: https://guntradenews.com/features-news/airmageddon-averted/
             archive: https://web.archive.org/web/20211201182528/https://www.guntradenews.com/features-news/airmageddon-averted/
+
+## Cloud Agent findings (2026-10-27)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+71. AK Operators Union (Rob Ski)
+   Audience: ~342K YouTube subs; long-running AK education channel
+   When: Mar–May 2018
+   Platform: YouTube
+   What: YouTube issued Community Guidelines strikes and removed ordinary AK videos, then denied appeals: first a Romanian Paratrooper range/inspection video (1,080 rounds later), then AK47 User Guide Part 2, which Rob Ski said was field-stripping and bolt-component explanation rather than manufacturing. Live streaming was revoked and the channel sat one strike from deletion. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.akoperatorsunionlocal4774.com/2018/03/strike-one-from-youtube/
+            archive: https://web.archive.org/web/20260420121257/https://www.akoperatorsunionlocal4774.com/2018/03/strike-one-from-youtube/
+            https://www.akoperatorsunionlocal4774.com/2018/05/youtube-bullying-and-harassment-of-gun-channels-continues/
+            archive: https://web.archive.org/web/20260519223126/https://www.akoperatorsunionlocal4774.com/2018/05/youtube-bullying-and-harassment-of-gun-channels-continues/
+72. Shoot SIG
+   Audience: SIG SAUER competitive-shooting community Instagram (@shootsig.sigsauer)
+   When: Feb 28, 2024
+   Platform: Instagram/Meta
+   What: Instagram disabled the Shoot SIG shooting-community account after a Community Guidelines review. SIG described Shoot SIG as a series of competitive shooting events meant as a safe, fun way to get to the range, increase skills, and encourage firearms safety. An appeal restored the account the next day; Instagram then said the activity followed its account-integrity rules. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://mrcfreespeechamerica.org/case/shoot-sig-sig-sauer
+            archive: https://web.archive.org/web/20260617224929/https://mrcfreespeechamerica.org/case/shoot-sig-sig-sauer
