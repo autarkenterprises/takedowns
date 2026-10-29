@@ -778,3 +778,22 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: Meta permanently removed the shop's Facebook business page and blocked an appeal, citing alleged policy violations that owner Lisa Mayo said were completely false. The shop posted a first-party video asking customers for help after the page was taken down. No manufacturing tutorials, threats, or illegal sales.
    Sources: https://www.tamparacing.com/forums/guns-ammo/852174-female-gun-store-breaks-silence-after-blatant-discrimination-meta-inc-help.html
             archive: https://web.archive.org/web/20261028173820/https://www.tamparacing.com/forums/guns-ammo/852174-female-gun-store-breaks-silence-after-blatant-discrimination-meta-inc-help.html
+
+## Cloud Agent findings (2026-10-29)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+76. Sootch00 (Don Porter)
+   Audience: ~640K YouTube subs on the main gun-review channel; ~1M across Sootch00 and Sensible Prepper
+   When: Dec 2017–Apr 2018
+   Platform: YouTube
+   What: YouTube issued Community Guidelines strikes on the Sootch00 gun-review channel (Military Arms Channel's Tim Harmsen said both channels were hit again in December 2017). In April 2018, AmmoLand/GetZone reported that YouTube planned to terminate the channel and that banned demonstration and review videos were being moved to GetZone.com. The library is ordinary fun gun reviews, not manufacturing tutorials, threats, or illegal sales.
+   Sources: https://concealednation.org/2017/12/youtube-vs-gun-publishers-guess-who-loses/
+            archive: https://web.archive.org/web/20171228150553/http://concealednation.org:80/2017/12/youtube-vs-gun-publishers-guess-who-loses/
+            https://www.ammoland.com/2018/04/sootch00-moves-getzone/
+            archive: https://web.archive.org/web/20190617204042/https://www.ammoland.com/2018/04/sootch00-moves-getzone/
+77. Jon's Guns (Jonathan Hall)
+   Audience: Licensed Bristol, Virginia FFL brick-and-mortar shop (Exit 7); congressional attention (Rep. Morgan Griffith)
+   When: Apr 2022
+   Platform: Facebook/Meta
+   What: Facebook unpublished the licensed dealer's business page after years of flagging posts, citing Community Standards. Hall is a federally licensed dealer and said Meta's own rules allow brick-and-mortar shops to advertise firearms; he reported a ~33% sales drop that month and launched a replacement page. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://wcyb.com/news/local/bristol-firearms-dealer-says-facebook-censored-posts-business-page
+            archive: https://web.archive.org/web/20220422230019/https://wcyb.com/news/local/bristol-firearms-dealer-says-facebook-censored-posts-business-page
