@@ -850,3 +850,13 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: Facebook unpublished the official page after a photo of a police trade-in firearm with no price, link, or transaction language. AimSurplus said Meta's own brick-and-mortar rules should have allowed the post, declined a paid restoration that would not clear prior flags, and launched a replacement page. No manufacturing tutorials, threats, or illegal sales.
    Sources: https://blog.aimsurplus.com/?p=6112
             archive: https://web.archive.org/web/20240528210535/https://blog.aimsurplus.com/?p=6112
+
+## Cloud Agent findings (2026-11-04)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+84. Gemtech
+   Audience: Major U.S. suppressor manufacturer brand channel (later Smith & Wesson-owned)
+   When: Jan–Feb 2023 (reported Feb 9, 2023)
+   Platform: YouTube
+   What: During the January–February 2023 suppressor-enforcement wave, YouTube emptied Gemtech's official videos page. Guns.com reported on February 9, 2023 that Gemtech's videos page returned nothing, grouping the manufacturer with other channels deleted in the same wave YouTube later called a mistake. The content was ordinary suppressor-brand video, not manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.guns.com/news/2023/02/09/youtube-is-ghosting-gun-content-including-ours
+            archive: https://web.archive.org/web/20230210040723/https://www.guns.com/news/2023/02/09/youtube-is-ghosting-gun-content-including-ours
