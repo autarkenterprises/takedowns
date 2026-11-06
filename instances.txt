@@ -860,3 +860,13 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: During the January–February 2023 suppressor-enforcement wave, YouTube emptied Gemtech's official videos page. Guns.com reported on February 9, 2023 that Gemtech's videos page returned nothing, grouping the manufacturer with other channels deleted in the same wave YouTube later called a mistake. The content was ordinary suppressor-brand video, not manufacturing tutorials, threats, or illegal sales.
    Sources: https://www.guns.com/news/2023/02/09/youtube-is-ghosting-gun-content-including-ours
             archive: https://web.archive.org/web/20230210040723/https://www.guns.com/news/2023/02/09/youtube-is-ghosting-gun-content-including-ours
+
+## Cloud Agent findings (2026-11-06)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+85. Black Collar Arms
+   Audience: Licensed Texas firearms manufacturer (Instagram @blackcollararms)
+   When: Jul–Sep 2023 (reported Sep 13, 2023)
+   Platform: Instagram/Meta
+   What: Instagram flagged ordinary firearm-photo posts and restricted the @blackcollararms brand account so non-followers would not see its posts except via shares from existing followers; search also hid the account unless the handle was typed exactly. The manufacturer said the posts were look-at-this-gear photos, not sales listings. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.thetruthaboutguns.com/were-marginalized-and-micro-aggressed/
+            archive: https://web.archive.org/web/20230916124900/https://www.thetruthaboutguns.com/were-marginalized-and-micro-aggressed/
