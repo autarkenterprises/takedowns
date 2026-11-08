@@ -882,3 +882,13 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
             archive: https://web.archive.org/web/20200218051018/https://www.thetruthaboutguns.com/facebook-removes-kentucky-gun-company-page-without-notice/
             https://concealednation.org/2016/02/breaking-facebook-axes-the-good-guys-at-kentucky-gun-company-a-legitimate-firearms-dealer/
             archive: https://web.archive.org/web/20160206224629/http://concealednation.org:80/2016/02/breaking-facebook-axes-the-good-guys-at-kentucky-gun-company-a-legitimate-firearms-dealer/
+
+## Cloud Agent findings (2026-11-08)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+87. Weapon Snatcher (John Carughi)
+   Audience: ~62K YouTube subs (Dec 2025); nationwide firearms-training brand
+   When: June 2026
+   Platform: YouTube
+   What: YouTube removed the original Weapon Snatcher channel in June 2026, wiping years of firearms-training, equipment-review, shooting-technique, and range videos. The company said it is pursuing recovery of the original channel and launched a replacement channel for the same training and review content. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://weaponsnatcher.com/pages/youtube
+            archive: https://web.archive.org/web/20261108172126/https://weaponsnatcher.com/pages/youtube

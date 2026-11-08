@@ -323,3 +323,11 @@ Validated discoveries appended by the Cursor Cloud Agent (same inclusion bar; pr
 | # | Who | Audience | When | Platform | What happened |
 |---|-----|----------|------|----------|---------------|
 | 86 | **Kentucky Gun Company (KYGUNCO)** | Licensed Bardstown, Kentucky FFL since 1946; 32,000 sq ft retail and range; ~32K Facebook likes at the time | Feb 4, 2016 (restored ~16 hours later) | Facebook/Meta | Facebook deleted the licensed dealer's brand page without notice, citing Community Standards / policy violations during a sweep aimed at private gun buy/sell groups. Owner Patrick Hayden said an algorithm targeting individual-to-individual transfers also caught legitimate FFLs. After outreach, Facebook reinstated the page in about 16 hours. No manufacturing tutorials, threats, or illegal sales. [thetruthaboutguns.com](https://www.thetruthaboutguns.com/facebook-removes-kentucky-gun-company-page-without-notice/) ([archive](https://web.archive.org/web/20200218051018/https://www.thetruthaboutguns.com/facebook-removes-kentucky-gun-company-page-without-notice/)) · [concealednation.org](https://concealednation.org/2016/02/breaking-facebook-axes-the-good-guys-at-kentucky-gun-company-a-legitimate-firearms-dealer/) ([archive](https://web.archive.org/web/20160206224629/http://concealednation.org:80/2016/02/breaking-facebook-axes-the-good-guys-at-kentucky-gun-company-a-legitimate-firearms-dealer/)) |
+
+## Cloud Agent findings (2026-11-08)
+
+Validated discoveries appended by the Cursor Cloud Agent (same inclusion bar; prior batches unchanged).
+
+| # | Who | Audience | When | Platform | What happened |
+|---|-----|----------|------|----------|---------------|
+| 87 | **Weapon Snatcher (John Carughi)** | ~62K YouTube subs (Dec 2025); nationwide firearms-training brand | June 2026 | YouTube | YouTube removed the original Weapon Snatcher channel in June 2026, wiping years of firearms-training, equipment-review, shooting-technique, and range videos. The company said it is pursuing recovery of the original channel and launched a replacement channel for the same training and review content. No manufacturing tutorials, threats, or illegal sales. [weaponsnatcher.com](https://weaponsnatcher.com/pages/youtube) ([archive](https://web.archive.org/web/20261108172126/https://weaponsnatcher.com/pages/youtube)) |
