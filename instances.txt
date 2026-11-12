@@ -933,3 +933,22 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
             archive: https://web.archive.org/web/20210512154813/https://bearingarms.com/camedwards/2019/08/21/social-media-silencing-well-armed-woman-removed-instagram-n35067
             https://concealednation.org/2019/08/gun-industry-businesses-have-little-say-when-their-social-media-accounts-suddenly-vanish/
             archive: https://web.archive.org/web/20190823204413/http://concealednation.org/2019/08/gun-industry-businesses-have-little-say-when-their-social-media-accounts-suddenly-vanish/
+
+## Cloud Agent findings (2026-11-12)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+92. Alien Gear Holsters
+   Audience: ~1M Facebook followers (at time); major U.S. holster brand
+   When: Feb–Jun 2016 (reported Jun 6–10, 2016)
+   Platform: Facebook/Meta
+   What: Facebook collapsed organic reach on Alien Gear Holsters' brand page so content that had reached nearly one million followers dropped to a fraction of prior distribution, even as follower count kept growing. The brand was part of a firearms-industry coalition that said Facebook had limited newsfeed distribution of gun-related pages; Concealed Nation's publisher said a Facebook account manager confirmed the suppression. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.americanhunter.org/content/is-facebook-quashing-gun-industry-news/
+            archive: https://web.archive.org/web/20220526014818/https://www.americanhunter.org/content/is-facebook-quashing-gun-industry-news/
+            https://www.gunowners.org/news07072016/
+            archive: https://web.archive.org/web/20191204190644/https://gunowners.org/news07072016/
+93. Concealed Nation
+   Audience: ~700K Facebook page likes (at time); firearms news and concealed-carry outlet
+   When: Feb–Jun 2016 (reported Jun 6–7, 2016)
+   Platform: Facebook/Meta
+   What: Facebook cut Concealed Nation's page traffic by about 50% in February 2016 without any change in posting. Publisher Brandon Curtis said a Facebook account manager confirmed the page was being suppressed for 'too much commercial content' even though the posts were editorial gun-news links, then later said users had flagged the pages. Facebook did not lift the penalty and offered a paid-traffic seminar instead. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://concealednation.org/2016/06/press-release-facebook-actively-suppressing-news-distribution-for-the-gun-industry/
+            archive: https://web.archive.org/web/20160611111047/http://concealednation.org:80/2016/06/press-release-facebook-actively-suppressing-news-distribution-for-the-gun-industry/
