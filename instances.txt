@@ -971,3 +971,15 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
             archive: https://web.archive.org/web/20160610120213/http://www.usacarry.com:80/press-release-facebook-actively-suppressing-news-distribution-gun-industry
             https://www.americas1stfreedom.org/content/facebook-willing-to-toss-out-first-amendment-to-spite-the-second/
             archive: https://web.archive.org/web/20220519131112/https://www.americas1stfreedom.org/content/facebook-willing-to-toss-out-first-amendment-to-spite-the-second/
+
+## Cloud Agent findings (2026-11-14)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+96. Burdett & Son Outdoor Adventure Shop (Sarah and Barry Burdett)
+   Audience: Licensed College Station, Texas FFL/outdoor shop (~40 years); Instagram grew to ~5,000 followers before shutdown
+   When: 2020–2021 (reported Jul 14, 2021)
+   Platform: Instagram/Meta
+   What: Instagram shut down two of the licensed brick-and-mortar shop's accounts after flagging ordinary in-stock firearm and ammunition photos as illegal regulated-goods sales, even after the owners uploaded their federal firearms license, registered the accounts as a business, linked the shop website, and tied them to a Facebook business page. The first Instagram page grew to about 5,000 followers in roughly a year before removal; a replacement grew faster and was also shut down, with no response to the appeal form. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.kbtx.com/2021/07/15/college-station-business-social-media-advertising-stifled-by-instagrams-community-guidelines-algorithm/
+            archive: https://web.archive.org/web/20210715163718/https://www.kbtx.com/2021/07/15/college-station-business-social-media-advertising-stifled-by-instagrams-community-guidelines-algorithm/
+            https://www.bcschronicle.com/burdett-and-son-battles-with-instagram-censorship
+            archive: https://web.archive.org/web/20261114172710/https://www.bcschronicle.com/burdett-and-son-battles-with-instagram-censorship
