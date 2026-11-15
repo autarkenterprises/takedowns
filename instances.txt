@@ -983,3 +983,13 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
             archive: https://web.archive.org/web/20210715163718/https://www.kbtx.com/2021/07/15/college-station-business-social-media-advertising-stifled-by-instagrams-community-guidelines-algorithm/
             https://www.bcschronicle.com/burdett-and-son-battles-with-instagram-censorship
             archive: https://web.archive.org/web/20261114172710/https://www.bcschronicle.com/burdett-and-son-battles-with-instagram-censorship
+
+## Cloud Agent findings (2026-11-15)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+97. American Gun and Pawn (Steve Champion) and Florida Gun Supply (Andy Hallinan)
+   Audience: Licensed brick-and-mortar Florida FFLs (Brooksville and Inverness)
+   When: Jun 2016
+   Platform: Facebook/Meta
+   What: Facebook unpublished both licensed dealers' business pages and suspended the owners' personal accounts for 24 hours, citing unauthorized sale of firearms and explosives. A Facebook spokesperson later told CBS12 the pages were removed in error and restored as soon as the company could investigate, and the admin suspensions were lifted. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://cbs12.com/news/local/gun-store-owners-facebook-is-messing-with-us
+            archive: https://web.archive.org/web/20160617140214/http://cbs12.com/news/local/gun-store-owners-facebook-is-messing-with-us
