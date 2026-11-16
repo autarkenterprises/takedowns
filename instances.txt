@@ -993,3 +993,24 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: Facebook unpublished both licensed dealers' business pages and suspended the owners' personal accounts for 24 hours, citing unauthorized sale of firearms and explosives. A Facebook spokesperson later told CBS12 the pages were removed in error and restored as soon as the company could investigate, and the admin suspensions were lifted. No manufacturing tutorials, threats, or illegal sales.
    Sources: https://cbs12.com/news/local/gun-store-owners-facebook-is-messing-with-us
             archive: https://web.archive.org/web/20160617140214/http://cbs12.com/news/local/gun-store-owners-facebook-is-messing-with-us
+
+## Cloud Agent findings (2026-11-16)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+98. InRange TV (Karl Kasarda)
+   Audience: ~143K YouTube subs; 24M+ views (at time)
+   When: Mar 2018
+   Platform: YouTube
+   What: YouTube's post-Parkland firearms-policy enforcement demonetized and erroneously flagged InRange TV's ordinary gun-demo and review videos, with subscribers losing notifications. The hosts deleted their AdSense account, moved funding to Patreon, and mirrored the library onto other hosts after concluding YouTube was no longer a safe harbor for lawful review content. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.recoilweb.com/youtube-inrange-tv-and-pornhub-135857.html
+            archive: https://web.archive.org/web/20180322002911/http://www.recoilweb.com/youtube-inrange-tv-and-pornhub-135857.html
+            https://www.buzzfeednews.com/article/leticiamiranda/a-gun-demo-youtube-channel-with-24-million-subscribers-is
+            archive: https://web.archive.org/web/20181204130530/https://www.buzzfeednews.com/article/leticiamiranda/a-gun-demo-youtube-channel-with-24-million-subscribers-is
+            https://www.vice.com/en/article/a-gun-channel-moves-to-pornhub-after-youtube-ban-on-firearms/
+            archive: https://web.archive.org/web/20250313002905/https://www.vice.com/en/article/a-gun-channel-moves-to-pornhub-after-youtube-ban-on-firearms/
+99. The Chopping Block (Andrew B.)
+   Audience: Ammunition/ballistics testing channel (~12K–14K YouTube subs around 2019–2020); TFB TV contributor
+   When: May 2019
+   Platform: YouTube
+   What: YouTube sent a weapons-related-content demonetization notice covering The Chopping Block's ammunition-testing videos. Host Andrew B., an Army veteran who films at shooting ranges, said the notice applied even though the videos were ordinary range ballistics tests, and that demonetization also suppressed recommendations. No manufacturing tutorials, threats, or illegal sales.
+   Sources: https://www.thefirearmblog.com/blog/2019/05/16/youtube-guns/
+            archive: https://web.archive.org/web/20190706114200/https://www.thefirearmblog.com/blog/2019/05/16/youtube-guns/
