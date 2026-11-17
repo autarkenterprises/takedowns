@@ -1014,3 +1014,13 @@ Auto-appended after validator + Wayback gates. Numbers continue the catalog.
    What: YouTube sent a weapons-related-content demonetization notice covering The Chopping Block's ammunition-testing videos. Host Andrew B., an Army veteran who films at shooting ranges, said the notice applied even though the videos were ordinary range ballistics tests, and that demonetization also suppressed recommendations. No manufacturing tutorials, threats, or illegal sales.
    Sources: https://www.thefirearmblog.com/blog/2019/05/16/youtube-guns/
             archive: https://web.archive.org/web/20190706114200/https://www.thefirearmblog.com/blog/2019/05/16/youtube-guns/
+
+## Cloud Agent findings (2026-11-17)
+Auto-appended after validator + Wayback gates. Numbers continue the catalog.
+100. Odd Stuffing
+   Audience: 2A/firearms blog and affiliated business Facebook pages
+   When: Jan–Feb 2026 (posted Feb 8, 2026)
+   Platform: Facebook/Meta
+   What: Facebook marked the Odd Stuffing page and the author's business page as no longer recommended after New Year notices that they 'didn't follow the rules.' The business page was tied to a December 2025 Gen 6 Glock post and a November 2018 Women on Target training-class firearms photo; appeals produced no human response. Ordinary lawful gun posts; no manufacturing tutorials, threats, or illegal sales.
+   Sources: https://oddstuffing.com/archives/1429
+            archive: https://web.archive.org/web/20260512191740/https://oddstuffing.com/archives/1429
